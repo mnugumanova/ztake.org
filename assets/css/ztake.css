@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+header#header .navbar-brand {
+    font-weight: 700;
+    letter-spacing: .4px;
+    font-size: 22px;
+    color: #3f3cd8;
+    line-height: 38px
+}
+
+header#header .navbar-nav li+li {
+    margin-left: 1.5rem;
+}
+
+header#header .navbar-nav .nav-link {
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: #1d0055;
+    padding: 14px 0;
+    position: relative;
+}
+
+header#header .navbar-nav li.active .nav-link:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #3f3cd8;
+    border-radius: 1.5px;
+}
+
+.btn.focus, .btn:focus, .btn:not(:disabled):not(.disabled).active:focus, .btn:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+body > section {
+    padding: 80px 0;
+}
+
+section#intro h1 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: .9px;
+    color: #1d0055;
+    margin-bottom: 41px;
+}
+
+section#intro h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: .4px;
+    color: #1d0055;
+    margin-bottom: 30px;
+    max-width: 310px;
+}
+
+section#intro p{
+    margin-bottom: 63px;
+}
+
+section h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    color: #1d0055;
+    margin-bottom: 50px;
+}
+
+section p{
+    font-size: 14px;
+    line-height: 2.14;
+    color: #4b5378;
+}
+
+.btn-lg {
+    padding: 16px 32px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 30px;
+    letter-spacing: .4px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    border-color: #3f3cd8;
+    background-color: #3f3cd8;
+}
+
+.btn-primary:hover {
+    border-color: #3f3cd8;
+    background-color: #3f3cd8;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+    border-color: #3f3cd8;
+    background-color: #3f3cd8;
+}
+
+section#portfolio .card {
+    padding: 30px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    border-color: #e9e8f4;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+section#portfolio .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .4px;
+    color: #1e1c66;
+    margin-bottom: 25px;
+}
+
+section#portfolio .card-logo {
+    width: 108px;
+    height: 108px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    -ms-flex: 0 0 108px;
+    flex: 0 0 108px;
+    margin-right: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section#portfolio .card-body {
+    padding: 0;
+}
+
+section#portfolio .status-h {
+    letter-spacing: .3px;
+    color: #4b5378;
+    margin-bottom: 5px;
+}
+
+section#portfolio .status {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .4px;
+    color: #3f3cd8;
+}
+
+section#portfolio .btn-card {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #3634ba;
+    border-color: #3634ba;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+section#portfolio .card.dark {
+    box-shadow: 0 20px 40px 0 rgba(63, 60, 216, 0.15);
+    background-color: #3f3cd8;
+    border-color: #3f3cd8;
+}
+
+section#portfolio .card.dark .card-title, section#portfolio .card.dark .status, section#portfolio .card.dark .card-text {
+    color: #fff;
+}
+
+section#portfolio .card.dark .card-logo {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+section#portfolio .card.dark .status-h {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+section#portfolio .cosmos {
+    background-color: #17074e !important;
+}
+
+section#portfolio .poa {
+    background-color: #5c2fa5 !important;
+}
+
+section#portfolio .goerli {
+    background-color: #1c1c1c !important;
+}
+
+section#portfolio .iris {
+    background-color: #131837 !important;
+}
+
+section#portfolio .polkadot {
+    background-color: #fff !important;
+}
