@@ -210,3 +210,16 @@ section#portfolio .iris {
 section#portfolio .polkadot {
     background-color: #fff !important;
 }
+
+div#delegate {
+    transition: all 0.2s;
+    text-decoration: none;
+    background-color: #a2a1ff;
+    text-align: center;
+    padding: 10px 40px;
+    position: relative;
+}
+
+div#delegate > a {
+    color: #fff;
+}
