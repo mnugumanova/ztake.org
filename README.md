@@ -1,1 +1,3 @@
 # ztake.org
+
+Cosmos Validator 
