@@ -241,7 +241,7 @@ section#reasons .col-reason {
     padding-bottom: 40px;
 }
 
-section#reasons .icon {
+section#reasons .r-icon {
     height: 90px;
     margin-bottom: 40px;
 }
@@ -271,16 +271,18 @@ section#contact form {
     background-color: #ffffff;
 }
 
-section#contact .mailbox:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -12%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url("../img/mailbox.svg");
+@media (min-width: 992px) {
+    section#contact .mailbox:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -12%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url("../img/mailbox.svg");
+    }
 }
 
 .form-control {
@@ -317,12 +319,14 @@ section#contact .input-group {
     margin-bottom: 30px;
 }
 
-section#contact .btn {
-    width: 100%;
+@media (min-width: 992px) {
+    section#contact .btn {
+        width: 100%;
+    }
 }
 
 section#contact p {
-    width: 340px;
+    max-width: 340px;
 }
 
 .icon {
@@ -349,6 +353,7 @@ footer#footer {
 
 footer#footer .navbar-brand {
     color: #fff;
+    margin-right: 0;
 }
 
 footer#footer .based{
@@ -396,4 +401,94 @@ footer#footer ul.social a {
 
 .icon-twitter {
     background-image: url("../img/icons/twitter-icon.svg");
+}
+
+@media (max-width:991.98px) {
+    section#intro {
+        text-align: center;
+    }
+
+    section#intro h1 {
+        font-size: 40px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#intro h2 {
+        margin: 0 auto 40px auto;
+        max-width: initial;
+    }
+
+    section#intro p {
+        margin: 0 auto 40px auto;
+    }
+
+    section#intro .btn {
+        margin-top: 40px;
+    }
+
+    section#about {
+        text-align: center;
+    }
+
+    section h3 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    section p {
+        margin: 0 auto 40px auto;
+    }
+
+    section#features {
+        text-align: center;
+    }
+
+    section#contact {
+        text-align: center;
+    }
+}
+
+@media (max-width:767.98px) {
+    section#intro h1 {
+        font-size: 24px;
+    }
+
+    section#intro h2 {
+        font-size: 16px;
+    }
+
+    .btn-lg {
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+
+    section#portfolio .card-title {
+        font-size: 16px;
+    }
+
+    section#portfolio .card-status {
+        font-size: 14px;
+    }
+
+    section#portfolio .status {
+        font-size: 15px;
+    }
+
+    section h4 {
+        font-size: 18px;
+    }
+
+    section#reasons {
+        text-align: center;
+    }
+
+    footer#footer .based {
+        position: relative;
+    }
 }
