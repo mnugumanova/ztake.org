@@ -334,16 +334,19 @@ section#contact p {
     line-height: 1;
     height: 18px;
     width: 18px;
-    background-repeat: no-repeat;
-    background-position: center;
+    vertical-align: middle;
 }
 
 .icon-message {
-    background-image: url("../img/icons/message-icon.svg");
+    background-color: #4b5378;
+    -webkit-mask: url("../img/icons/message-icon.svg") no-repeat 50% 50%;
+    mask: url("../img/icons/message-icon.svg") no-repeat 50% 50%;
 }
 
 .icon-user {
-    background-image: url("../img/icons/user-icon.svg");
+    background-color: #4b5378;
+    -webkit-mask: url("../img/icons/user-icon.svg") no-repeat 50% 50%;
+    mask: url("../img/icons/user-icon.svg") no-repeat 50% 50%;
 }
 
 footer#footer {
@@ -519,4 +522,89 @@ footer#footer ul.social a {
     section#portfolio .card-title {
         margin-bottom: 15px;
     }
+}
+
+section#metrics .metric {
+    text-align: center;
+}
+
+section#metrics .metric span {
+    font-size: 50px;
+    font-weight: 700;
+    color: #403cd7;
+    display: block;
+}
+
+.box {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -2.1px 29.9px 35px 0 rgba(46, 21, 107, 0.09);
+    background-color: #ffffff;
+}
+
+.box .icon {
+    background-color: #403cd7;
+}
+
+.box a {
+    color: #403cd7;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin-bottom: 0;
+}
+
+section#how_to_stake .guide {
+    padding: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+
+
+section#how_to_stake .guide-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    border: 1px solid #e9e8ed;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    margin-right: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section#how_to_stake .guide-title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .4px;
+    color: #1e1c66;
+    margin-bottom: 25px;
+}
+
+section#history .box {
+    padding: 10px;
+}
+
+
+section#history .table .id {}
+section#history .table .title {}
+section#history .table .vote {}
+section#history .table .abs {}
+section#history .table .expl {
+    width: 30%;
+}
+
+#newsletter {
+    background-color: #f3f8fe;
+    padding: 40px 0;
 }
