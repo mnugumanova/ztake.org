@@ -2,12 +2,15 @@ body {
     font-family: 'Montserrat',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-header#header .navbar-brand {
+.navbar-brand {
     font-weight: 700;
     letter-spacing: .4px;
     font-size: 22px;
-    color: #3f3cd8;
     line-height: 38px
+}
+
+header#header .navbar-brand {
+    color: #3f3cd8;
 }
 
 header#header .navbar-nav li+li {
@@ -62,6 +65,7 @@ section#intro h2{
 
 section#intro p{
     margin-bottom: 63px;
+    max-width: 480px;
 }
 
 section h3 {
@@ -78,6 +82,10 @@ section p{
     color: #4b5378;
 }
 
+section p + p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .btn-lg {
     padding: 16px 32px;
     font-size: 18px;
@@ -222,4 +230,170 @@ div#delegate {
 
 div#delegate > a {
     color: #fff;
+}
+
+section#reasons p {
+    max-width: 285px;
+}
+
+section#reasons .col-reason {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+section#reasons .icon {
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+section h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: .4px;
+    color: #1d0055;
+    margin-bottom: 30px;
+}
+
+section#features .row {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+section#features p {
+    max-width: 460px;
+}
+
+section#contact form {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -2.1px 29.9px 35px 0 rgba(46, 21, 107, 0.09);
+    background-color: #ffffff;
+}
+
+section#contact .mailbox:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -12%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/mailbox.svg");
+}
+
+.form-control {
+    border-radius: 30px;
+    color: #4b5378;
+    border: solid 1px #e8e9ee;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    height: 60px;
+    padding: 18px 30px;
+}
+
+.input-group-text {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #4b5378;
+    border: solid 1px #e8e9ee;
+    font-size: 14px;
+    padding: 18px 20px 18px 30px;
+}
+
+.input-group>.form-control:not(:first-child) {
+    border-left: 0;
+    padding-left: 0;
+}
+
+.form-control:focus {
+    border-color: #e8e9ee;
+    box-shadow: none;
+}
+
+section#contact .input-group {
+    margin-bottom: 30px;
+}
+
+section#contact .btn {
+    width: 100%;
+}
+
+section#contact p {
+    width: 340px;
+}
+
+.icon {
+    display: inline-block;
+    line-height: 1;
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-message {
+    background-image: url("../img/icons/message-icon.svg");
+}
+
+.icon-user {
+    background-image: url("../img/icons/user-icon.svg");
+}
+
+footer#footer {
+    background-color: #3f3cd8;
+    padding: 10px 0;
+}
+
+footer#footer .navbar-brand {
+    color: #fff;
+}
+
+footer#footer .based{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.86;
+    letter-spacing: .3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer#footer ul.social {
+    position: relative;
+    z-index: 20;
+}
+
+footer#footer ul.social li {
+    margin: 0 8px;
+}
+
+footer#footer ul.social a {
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-facebook {
+    background-image: url("../img/icons/facebook-icon.svg");
+}
+
+.icon-github {
+    background-image: url("../img/icons/github-icon.svg");
+}
+
+.icon-twitter {
+    background-image: url("../img/icons/twitter-icon.svg");
 }
