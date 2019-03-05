@@ -441,6 +441,10 @@ footer#footer ul.social a {
         margin: 0 auto 40px auto;
     }
 
+    section#reasons p {
+        margin-left: 0;
+    }
+
     section#features {
         text-align: center;
     }
