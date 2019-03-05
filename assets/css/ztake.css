@@ -508,4 +508,15 @@ footer#footer ul.social a {
     footer#footer .based {
         position: relative;
     }
+
+    section#portfolio .card-logo {
+        width: 86px;
+        height: 86px;
+        -ms-flex: 0 0 86px;
+        flex: 0 0 86px;
+    }
+
+    section#portfolio .card-title {
+        margin-bottom: 15px;
+    }
 }
