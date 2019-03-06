@@ -608,3 +608,15 @@ section#history .table .expl {
     background-color: #f3f8fe;
     padding: 40px 0;
 }
+
+section ul{
+    font-size: 14px;
+    line-height: 2.14;
+    color: #4b5378;
+    padding: 0 0 0 20px;
+    margin-bottom: 30px;
+}
+
+section ul li {
+    margin-bottom: 20px;
+}
