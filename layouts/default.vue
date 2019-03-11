@@ -1,7 +1,7 @@
 <template>
   <div id="ztake">
     <div id="delegate">
-      <a href="#">Delegate your Cosmos ATOMS to us to keep network secure and decentrilized!</a>
+        <a href="#"><i class="icon icon-shield"></i>Delegate your Cosmos ATOMS to us to keep network secure and decentrilized!</a>
     </div>
     <Header/>
     <nuxt/>
