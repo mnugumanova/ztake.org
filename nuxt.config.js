@@ -36,6 +36,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    'bootstrap/scss/bootstrap.scss',
+    //'~bootstrap-vue/src/index.scss',
     '@/assets/scss/ztake.scss'
   ],
 
@@ -60,9 +62,8 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extractCSS: {
-      allChunks: true
-    },
+    extractCSS: {},
+
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {

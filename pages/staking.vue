@@ -39,26 +39,26 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="metric">
-                            <span>~10%</span>
-                            <p>Current rate of network inflation</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="metric">
-                            <span>2%</span>
-                            <p>Change rate</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="metric">
-                            <span>10 000</span>
-                            <p>Self bonded stakes</p>
+                            <span>5,000</span>
+                            <p>ATOMS self bonded</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="metric">
                             <span>8%</span>
-                            <p>Fee</p>
+                            <p>Validator Fee</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="metric">
+                            <span>~ 7%</span>
+                            <p>Innitial rate of inflation</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="metric">
+                            <span>3 weeks</span>
+                            <p>Unbonding period</p>
                         </div>
                     </div>
                 </div>
@@ -66,20 +66,13 @@
         </section>
         <section id="how_to_stake">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h3>How to stake</h3>
-                        <p>
-                            There are currently 2 guides available: Official Delegators guide from Cosmos team and Voyager.
-                        </p>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="box d-flex flex-column justify-content-center align-items-center">
-                            <a href="mailto:xxx@xx.com"><i class="icon icon-message"></i> xxx@xx.com</a>
-                            <p>If you need 1:1 help with delegation</p>
-                        </div>
-                    </div>
-                </div>
+                <h3>How to stake</h3>
+                <p>
+                    There are currently only one security-audited guide available: Official Delegators guide from Cosmos team.
+                </p>
+                <p>
+                    It contains all the necessary information for delegators to interact with the Cosmos Hub through the Command-Line Interface (CLI).
+                </p>
                 <div class="row guides pt-5">
                     <div class="col-lg-6">
                         <div class="guide">
@@ -89,24 +82,23 @@
                             <div class="guide-body">
                                 <h5 class="guide-title">Cosmos</h5>
                                 <p class="guide-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    Read Delegator's Guide
                                 </p>
-                                <a href="https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents" target="_blank" class="btn btn-primary btn-lg">Cosmos guides</a>
+                                <a href="https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents" target="_blank" class="btn btn-primary btn-lg" rel="noopener">Cosmos guides</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="guide">
-                            <div class="guide-logo">
+                        <div class="box d-flex flex-column justify-content-center align-items-center">
 
-                            </div>
-                            <div class="guide-body">
-                                <h5 class="guide-title">Voyager</h5>
-                                <p class="guide-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                </p>
-                                <a href="#" target="_blank" class="btn btn-primary btn-lg">Cosmos guides</a>
-                            </div>
+                            <h4>1:1 delegation help</h4>
+
+                            <p>
+                                If you need more guidance in delegation process, we are here for you.
+                                Email us at
+                            </p>
+
+                            <a href="mailto:support@ztake.org" class="pt-4"><i class="icon icon-message"></i> support@ztake.org</a>
                         </div>
                     </div>
                 </div>
@@ -128,19 +120,22 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td class="id">14682008462</td>
-                            <td class="title">Lorem ipsum</td>
-                            <td class="vote">YES</td>
-                            <td class="abs">26</td>
-                            <td class="expl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</td>
+                            <td colspan="5">No proposals have been submitted to the network yet.</td>
                         </tr>
-                        <tr>
-                            <td class="id">14682008461</td>
-                            <td class="title">Dolor sit amet</td>
-                            <td class="vote">NO</td>
-                            <td class="abs">12</td>
-                            <td class="expl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</td>
-                        </tr>
+                        <!--<tr>-->
+                            <!--<td class="id">14682008462</td>-->
+                            <!--<td class="title">Lorem ipsum</td>-->
+                            <!--<td class="vote">YES</td>-->
+                            <!--<td class="abs">26</td>-->
+                            <!--<td class="expl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</td>-->
+                        <!--</tr>-->
+                        <!--<tr>-->
+                            <!--<td class="id">14682008461</td>-->
+                            <!--<td class="title">Dolor sit amet</td>-->
+                            <!--<td class="vote">NO</td>-->
+                            <!--<td class="abs">12</td>-->
+                            <!--<td class="expl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</td>-->
+                        <!--</tr>-->
                         </tbody>
                     </table>
                 </div>

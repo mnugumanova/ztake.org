@@ -269,10 +269,10 @@
               with our validator as a third-party delegator:
             </p>
             <p>
-              Atoms at stake: TBA
+              Atoms at genesis: 5,000
             </p>
             <p>
-              Fee schedule: TBA
+              Fee schedule: 8%
             </p>
           </div>
         </div>
