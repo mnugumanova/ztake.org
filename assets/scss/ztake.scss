@@ -244,11 +244,26 @@ section {
     font-size: 14px;
     line-height: 2.14;
     color: #4b5378;
-    padding: 0 0 0 20px;
+    padding: 0;
     margin-bottom: 30px;
+    list-style: none;
 
     li {
+      position: relative;
+      padding-left: 20px;
       margin-bottom: 20px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 0;
+
+        width: 10px;
+        height: 11px;
+        background: url("../img/list-marker.svg") no-repeat center center;
+        background-size: 100% 100%;
+      }
     }
   }
 }
