@@ -74,6 +74,14 @@ import Newsletter from '@/components/Newsletter.vue'
 export default {
     components: {
         Newsletter
+    },
+    head() {
+        return {
+            title: 'Cosmos Glossary - ZTAKE',
+            meta: [
+                { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Cosmos Glossary - ZTAKE'},
+            ]
+        }
     }
 }
 </script>

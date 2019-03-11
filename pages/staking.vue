@@ -155,6 +155,14 @@ import Newsletter from '@/components/Newsletter.vue'
 export default {
     components: {
         Newsletter
+    },
+    head() {
+        return {
+            title: 'Staking - ZTAKE',
+            meta: [
+                { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Staking - ZTAKE'},
+            ]
+        }
     }
 }
 </script>

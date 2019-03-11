@@ -35,6 +35,15 @@ import Newsletter from '@/components/Newsletter.vue'
 export default {
     components: {
         Newsletter
+    },
+    head() {
+        return {
+            title: 'Partnership - ZTAKE',
+            meta: [
+                { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Partnership - ZTAKE'},
+            ]
+        }
     }
+
 }
 </script>

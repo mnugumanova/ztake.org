@@ -1,8 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~bootstrap-vue/src/index.scss';
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
-
 body {
   font-family: 'Montserrat',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -30,7 +28,7 @@ header#header .navbar-nav .nav-link {
   position: relative;
 }
 
-header#header .navbar-nav .nav-link.router-link-exact-active:after {
+header#header .navbar-nav .nav-link.nuxt-link-exact-active:after {
   content: '';
   position: absolute;
   left: 0;
@@ -286,7 +284,7 @@ section#contact form {
     width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("assets/img/mailbox.svg");
+    background-image: url("../img/mailbox.svg");
   }
 }
 
@@ -344,14 +342,14 @@ section#contact p {
 
 .icon-message {
   background-color: #4b5378;
-  -webkit-mask: url("assets/img/icons/message-icon.svg") no-repeat 50% 50%;
-  mask: url("assets/img/icons/message-icon.svg") no-repeat 50% 50%;
+  -webkit-mask: url("../img/icons/message-icon.svg") no-repeat 50% 50%;
+  mask: url("../img/icons/message-icon.svg") no-repeat 50% 50%;
 }
 
 .icon-user {
   background-color: #4b5378;
-  -webkit-mask: url("assets/img/icons/user-icon.svg") no-repeat 50% 50%;
-  mask: url("assets/img/icons/user-icon.svg") no-repeat 50% 50%;
+  -webkit-mask: url("../img/icons/user-icon.svg") no-repeat 50% 50%;
+  mask: url("../img/icons/user-icon.svg") no-repeat 50% 50%;
 }
 
 footer#footer {
@@ -400,15 +398,15 @@ footer#footer ul.social a {
 }
 
 .icon-facebook {
-  background-image: url("assets/img/icons/facebook-icon.svg");
+  background-image: url("../img/icons/facebook-icon.svg");
 }
 
 .icon-github {
-  background-image: url("assets/img/icons/github-icon.svg");
+  background-image: url("../img/icons/github-icon.svg");
 }
 
 .icon-twitter {
-  background-image: url("assets/img/icons/twitter-icon.svg");
+  background-image: url("../img/icons/twitter-icon.svg");
 }
 
 @media (max-width:991.98px) {
@@ -624,4 +622,11 @@ section ul{
 
 section ul li {
   margin-bottom: 20px;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
 }
