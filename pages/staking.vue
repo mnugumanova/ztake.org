@@ -3,9 +3,6 @@
         <section id="staking">
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-lg-6 order-2 order-lg-0">
-
-                    </div>
                     <div class="col-lg-6 order-0 order-lg-2">
                         <h3>Staking</h3>
 
@@ -13,6 +10,9 @@
                             benefits of Cosmos’s Proof of Stake protocol. By delegating your tokens holdings to us, you have a
                             chance to earn interest on your tokens while keeping full control of your private keys and avoiding
                             the complexity of running a validator node 24×7 in a safe and secure environment.</p>
+                    </div>
+                    <div class="col-lg-6 order-2 order-lg-0">
+                        <img src="../assets/img/staking/staking.svg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                             send back your profits to the same account which you delegated your cosmos tokens from.</p>
                     </div>
                     <div class="col-lg-6">
-
+                        <img src="../assets/img/staking/staking-howto.svg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                     <div class="col-lg-6">
                         <div class="guide">
                             <div class="guide-logo">
-
+                                <img height="159" width="159" src="../assets/img/staking/cosmos-logo.jpg" srcset="../assets/img/staking/cosmos-logo@2x.jpg 2x, ../assets/img/staking/cosmos-logo@3x.jpg 3x" alt="">
                             </div>
                             <div class="guide-body">
                                 <h5 class="guide-title">Cosmos</h5>
