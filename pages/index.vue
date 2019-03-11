@@ -49,7 +49,7 @@
         <h3>Portfolio</h3>
 
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card dark">
               <div class="card-logo polkadot">
                 <img height="20" width="80" src="../assets/img/portfolio/polkadot.png" srcset="../assets/img/portfolio/polkadot@2x.png 2x, ../assets/img/portfolio/polkadot@3x.png 3x" alt="">
@@ -66,7 +66,7 @@
               </a> -->
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card">
               <div class="card-logo cosmos">
                 <img height="14" width="80" src="../assets/img/portfolio/cosmos.png" srcset="../assets/img/portfolio/cosmos@2x.png 2x, ../assets/img/portfolio/cosmos@3x.png 3x" alt="">
@@ -80,7 +80,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card dark">
               <div class="card-logo goerli">
                 <img height="90" width="90" src="../assets/img/portfolio/nkn.svg" alt="">
@@ -94,7 +94,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <a href="https://validators.poa.network/poa-dapps-validators" target="_blank" rel="nofollow">
               <div class="card">
                 <div class="card-logo poa">
@@ -110,7 +110,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <a href="https://t.me/cosmos_ztake" target="_blank" rel="nofollow">
               <div class="card dark">
                 <div class="card-logo">
