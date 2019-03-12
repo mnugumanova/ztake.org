@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: ztake.org
+Sitemap: https://ztake.org/sitemap.xml
