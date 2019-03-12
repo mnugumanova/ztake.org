@@ -16,7 +16,7 @@
                     </label>
                 </div>
                 <div class="col-2">
-                    <button type="button" class="btn btn-primary btn-lg">Send email</button>
+                    <button type="button" class="btn btn-primary btn-lg">Sign up</button>
                 </div>
             </div>
         </div>
