@@ -27,6 +27,26 @@
       <div class="container">
         <h3>Crypto projects we were part of</h3>
 
+        <div class="projects">
+          <a href="https://vault12.com" target="_blank">
+            <img src="../assets/img/projects/logo-vault-12.png" srcset="../assets/img/projects/logo-vault-12@2x.png 2x, ../assets/img/projects/logo-vault-12@3x.png 3x" class="img-fluid" alt="">
+          </a>
+          <a href="https://poa.network" target="_blank">
+            <img src="../assets/img/projects/logo-poa.svg" class="img-fluid" alt="">
+          </a>
+          <a href="https://multisender.app" target="_blank">
+            <img src="../assets/img/projects/logo-multisender.png" srcset="../assets/img/projects/logo-multisender@2x.png 2x, ../assets/img/projects/logo-multisender@3x.png 3x" class="img-fluid" alt="">
+          </a>
+          <a href="https://peppersec.com" target="_blank">
+            <img src="../assets/img/projects/logo-peppersec.svg" class="img-fluid" alt="">
+          </a>
+          <a href="https://www.blockchainlabs.nz" target="_blank">
+            <img src="../assets/img/projects/logo-blockchainlabs.png" srcset="../assets/img/projects/logo-blockchainlabs@2x.png 2x, ../assets/img/projects/logo-blockchainlabs@3x.png 3x" class="img-fluid" alt="">
+          </a>
+          <a href="https://dragonereum.io" target="_blank">
+            <img src="../assets/img/projects/logo-dragonereum.svg" class="img-fluid" alt="">
+          </a>
+        </div>
       </div>
     </section>
     <section id="terms">
