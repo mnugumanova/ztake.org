@@ -18,7 +18,7 @@
               network to help build value-add products for the Cosmos network.</p>
           </div>
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
-            <img src="../assets/img/logo.svg" width="215" height="200" alt="">
+            <img src="../assets/img/about.svg" class="img-fluid" alt="">
           </div>
         </div>
       </div>
