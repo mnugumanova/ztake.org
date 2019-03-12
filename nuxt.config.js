@@ -52,7 +52,8 @@ module.exports = {
   */
   modules: [
     ['@nuxtjs/sitemap', {
-      hostname: 'https://ztake.org'
+      hostname: 'https://ztake.org',
+      generate: true
     }]
   ],
 
