@@ -549,24 +549,41 @@ section#contact {
   height: 60px;
   padding: 18px 30px;
 
+  @include md-max {
+    height: 46px;
+    padding: 12px 30px;
+  }
+
   &:focus {
     border-color: #e8e9ee;
     box-shadow: none;
   }
 }
 
-.input-group-text {
-  background-color: #fff;
-  border-radius: 30px;
-  color: #4b5378;
-  border: solid 1px #e8e9ee;
-  font-size: 14px;
-  padding: 18px 20px 18px 30px;
-}
+.input-group {
+  margin-bottom: 1rem;
 
-.input-group > .form-control:not(:first-child) {
-  border-left: 0;
-  padding-left: 0;
+  @include sm {
+    margin-bottom: 0;
+  }
+
+  & > .form-control:not(:first-child) {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  &-text {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #4b5378;
+    border: solid 1px #e8e9ee;
+    font-size: 14px;
+    padding: 18px 20px 18px 30px;
+
+    @include md-max {
+      padding: 12px 20px 12px 30px;
+    }
+  }
 }
 
 .icon {
@@ -656,7 +673,12 @@ section#metrics {
     text-align: center;
 
     span {
-      font-size: 50px;
+      font-size: 40px;
+
+      @include xl {
+        font-size: 50px;
+      }
+
       font-weight: 700;
       color: #403cd7;
       display: block;
@@ -687,10 +709,29 @@ section#metrics {
 }
 
 section#how_to_stake {
+  div.container > p {
+    @include lg-max {
+      text-align: center;
+    }
+  }
+
+  .box {
+    p {
+      @include lg-max {
+        text-align: center;
+      }
+    }
+  }
+
   .guide {
     padding: 30px;
     display: flex;
     align-items: center;
+
+    @include sm-max {
+      flex-direction: column;
+    }
+
     margin: 15px 0;
 
     &-logo {
@@ -699,7 +740,15 @@ section#how_to_stake {
       border-radius: 6px;
       border: 1px solid #e9e8ed;
       flex: 0 0 200px;
-      margin-right: 30px;
+
+      @include sm-max {
+        margin-bottom: 30px;
+      }
+
+      @include sm {
+        margin-right: 30px;
+      }
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -743,6 +792,41 @@ section#history {
 #newsletter {
   background-color: #f3f8fe;
   padding: 40px 0;
+
+  h4 {
+    text-align: center;
+
+    @include md-max {
+      font-size: 20px;
+    }
+
+    @include lg-max {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .btn {
+    @include sm-max {
+      width: 100%;
+    }
+  }
+
+  form + .message {
+    margin-top: 2rem;
+  }
+
+  .message {
+    margin-bottom: 0;
+    text-align: center;
+
+    &.error {
+      color: #721c24;
+    }
+
+    &.success {
+      color: #155724
+    }
+  }
 }
 
 .page-enter-active, .page-leave-active {
@@ -751,4 +835,16 @@ section#history {
 
 .page-enter, .page-leave-to {
   opacity: 0;
+}
+
+section#staking {
+  @include lg-max {
+    text-align: center;
+  }
+}
+
+section#how_work {
+  @include lg-max {
+    text-align: center;
+  }
 }

@@ -1,30 +1,55 @@
 <template>
     <div id="newsletter">
         <div class="container">
-            <div class="form-row justify-content-center align-items-center">
-                <div class="col-auto">
+
+            <form v-if="!successMessage" class="form-row justify-content-center align-items-center" v-on:submit.prevent="subscribe" autocomplete="off">
+                <div class="col-12 col-lg-auto">
                     <h4>Sign up for our newsletter</h4>
                 </div>
-                <div class="col-4">
-                    <label class="input-group mb-0">
+                <div class="col-12 col-sm-auto col-lg-4 col-xl-4">
+                    <label class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <i class="icon icon-message"></i>
                             </div>
                         </div>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Your email" required>
+                        <input type="email" class="form-control" id="inputEmail" name="EMAIL" placeholder="Your email" v-model="email" required>
                     </label>
                 </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary btn-lg">Send email</button>
+                <div class="col-12 col-sm-auto col-lg-3 col-xl-2">
+                    <button type="submit" class="btn btn-primary btn-lg">Send email</button>
                 </div>
-            </div>
+            </form>
+
+            <p v-if="errorMessage && !successMessage" v-html="errorMessage" class="message error"></p>
+            <p v-if="successMessage" v-html="successMessage" class="message success"></p>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Newsletter"
+    name: "Newsletter",
+    data() {
+        return {
+            url: "https://ztake.us20.list-manage.com/subscribe/post-json?u=44f6e82c21716266059d883f2&amp;id=cd8f0b1274",
+            email: '',
+            successMessage: null,
+            errorMessage: null
+        }
+    },
+    methods: {
+        subscribe() {
+            this.$jsonp(this.url, { EMAIL: this.email, callbackQuery: 'c' }).then(res => {
+                if (res.result === 'success')
+                    this.successMessage = res.msg
+                else {
+                    this.errorMessage = res.msg
+                    this.errorMessage = this.errorMessage.substring(this.errorMessage.indexOf('-')+1, this.errorMessage.length)
+                }
+
+            })
+        }
+    }
 }
 </script>

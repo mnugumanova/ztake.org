@@ -73,8 +73,8 @@
                 <p>
                     It contains all the necessary information for delegators to interact with the Cosmos Hub through the Command-Line Interface (CLI).
                 </p>
-                <div class="row guides pt-5">
-                    <div class="col-lg-6">
+                <div class="row guides justify-content-md-center pt-5">
+                    <div class="col-md-9 col-lg-6">
                         <div class="guide">
                             <div class="guide-logo">
                                 <img height="159" width="159" src="../assets/img/staking/cosmos-logo.jpg" srcset="../assets/img/staking/cosmos-logo@2x.jpg 2x, ../assets/img/staking/cosmos-logo@3x.jpg 3x" alt="">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-7 col-lg-6">
                         <div class="box d-flex flex-column justify-content-center align-items-center">
 
                             <h4>1:1 delegation help</h4>
@@ -108,7 +108,7 @@
             <div class="container">
                 <h3>Proposal voting hitory</h3>
                 <div class="box">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless table-responsive">
                         <thead>
                         <tr>
                             <th>Porposal id</th>
