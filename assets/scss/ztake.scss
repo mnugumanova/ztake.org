@@ -206,7 +206,7 @@ section {
 
     @include lg-max {
       text-align: center;
-      font-size: 35px;
+      font-size: 32px;
     }
 
     @include md-max {
@@ -249,6 +249,12 @@ section {
     padding: 0;
     margin-bottom: 30px;
     list-style: none;
+
+    @include lg-max {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     li {
       position: relative;
@@ -792,8 +798,22 @@ section#metrics {
   }
 }
 
+.no-gutters {
+  & > .box {
+    padding: 25px;
+
+    @include md {
+      padding: 50px;
+    }
+  }
+}
+
 .box {
-  padding: 50px;
+  padding: 25px;
+
+  @include md {
+    padding: 50px;
+  }
   border-radius: 10px;
   box-shadow: -2.1px 29.9px 35px 0 rgba(46, 21, 107, 0.09);
   background-color: #ffffff;
@@ -985,5 +1005,25 @@ section#projects {
         margin-right: 70px;
       }
     }
+  }
+}
+
+section#partnership {
+  div.container > p {
+    @include lg-max {
+      text-align: center;
+    }
+  }
+}
+
+section#terms {
+  @include lg-max {
+    text-align: center;
+  }
+}
+
+section#glossary {
+  @include lg-max {
+    text-align: center;
   }
 }
