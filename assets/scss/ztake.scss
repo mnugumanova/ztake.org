@@ -941,6 +941,10 @@ section#history {
   }
 
   .table {
+    th {
+      white-space: nowrap;
+    }
+
     .id {
     }
 
