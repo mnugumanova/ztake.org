@@ -1036,3 +1036,22 @@ section#projects {
     }
   }
 }
+
+section#glossary {
+  .anchors {
+    a {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #1d0055;
+      margin-right: 30px;
+      padding-bottom: 10px;
+
+      &:hover {
+        color: #3f3cd8;
+        text-decoration: none;
+      }
+    }
+  }
+}

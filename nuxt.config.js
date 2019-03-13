@@ -57,7 +57,7 @@ module.exports = {
       hostname: 'https://ztake.org',
       generate: true
     }],
-    '@nuxtjs/dotenv',
+    '@nuxtjs/dotenv'
   ],
 
   /*

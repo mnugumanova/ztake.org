@@ -19,7 +19,8 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "vue-clipboard2": "^0.3.0",
-    "vue-jsonp": "^0.1.8"
+    "vue-jsonp": "^0.1.8",
+    "vue-scrollto": "^2.14.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
