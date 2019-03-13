@@ -160,17 +160,19 @@ header#header {
   }
 
   &-lg {
-    padding: 16px 32px;
-    font-size: 18px;
+    padding: 10px 18px;
+    font-size: 16px;
     line-height: 1.5;
     border-radius: 30px;
     letter-spacing: .4px;
     font-weight: 700;
 
-    @include md-max {
-      padding: 10px 18px;
-      font-size: 16px;
+    @include md {
+      padding: 16px 32px;
+      font-size: 18px;
+      height: 60px;
     }
+
   }
 
   &-primary {
@@ -204,7 +206,7 @@ section {
 
     @include lg-max {
       text-align: center;
-      font-size: 35px;
+      font-size: 32px;
     }
 
     @include md-max {
@@ -247,6 +249,12 @@ section {
     padding: 0;
     margin-bottom: 30px;
     list-style: none;
+
+    @include lg-max {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     li {
       position: relative;
@@ -549,24 +557,41 @@ section#contact {
   height: 60px;
   padding: 18px 30px;
 
+  @include md-max {
+    height: 46px;
+    padding: 12px 30px;
+  }
+
   &:focus {
     border-color: #e8e9ee;
     box-shadow: none;
   }
 }
 
-.input-group-text {
-  background-color: #fff;
-  border-radius: 30px;
-  color: #4b5378;
-  border: solid 1px #e8e9ee;
-  font-size: 14px;
-  padding: 18px 20px 18px 30px;
-}
+.input-group {
+  margin-bottom: 1rem;
 
-.input-group > .form-control:not(:first-child) {
-  border-left: 0;
-  padding-left: 0;
+  @include sm {
+    margin-bottom: 0;
+  }
+
+  & > .form-control:not(:first-child) {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  &-text {
+    background-color: #fff;
+    border-radius: 30px;
+    color: #4b5378;
+    border: solid 1px #e8e9ee;
+    font-size: 14px;
+    padding: 18px 20px 18px 30px;
+
+    @include md-max {
+      padding: 12px 20px 12px 30px;
+    }
+  }
 }
 
 .icon {
@@ -652,20 +677,143 @@ footer#footer {
 }
 
 section#metrics {
+  .row > div:nth-child(odd) .metric {
+    background-image: url("../img/staking/triangle-up.svg");
+    justify-content: flex-end;
+
+    @include md {
+      background-image: url("../img/staking/triangle-down.svg");
+      justify-content: flex-start;
+    }
+
+    &-content {
+      padding-bottom: 25px;
+
+      @include md {
+        padding-top: 25px;
+      }
+    }
+  }
+
+  .row > div:nth-child(even) .metric {
+    background-image: url("../img/staking/triangle-down.svg");
+    justify-content: flex-start;
+
+    @include md {
+      background-image: url("../img/staking/triangle-up.svg");
+      justify-content: flex-end;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+
+    @include sm {
+      margin-top: 40px;
+    }
+
+    @include xl {
+      margin-bottom: 0;
+    }
+
+    &-content {
+      padding-top: 25px;
+
+      @include md {
+        padding-bottom: 25px;
+      }
+    }
+  }
+
+  @include xl {
+    .row > div:first-child .metric {
+      background-image: url("../img/staking/triangle-down-dark.svg");
+
+      &-content {
+        & > div {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+
   .metric {
     text-align: center;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0;
 
-    span {
-      font-size: 50px;
-      font-weight: 700;
-      color: #403cd7;
-      display: block;
+    &-content {
+      max-width: 140px;
+      margin: 0 auto;
+
+      & > div {
+        font-size: 40px;
+
+        @include md {
+          font-size: 50px;
+        }
+
+        font-weight: 700;
+        color: #403cd7;
+        display: inline-flex;
+        line-height: 1.1;
+
+        span {
+          font-size: 28px;
+          line-height: 34px;
+
+          @include md {
+            font-size: 33px;
+            line-height: 43px;
+          }
+
+          &.tilde {
+            align-self: center;
+            margin-right: 3px;
+          }
+
+          &.percent {
+            align-self: flex-start;
+            margin-left: 4px;
+          }
+
+          &.weeks {
+            align-self: flex-end;
+            margin-left: 4px;
+          }
+        }
+      }
+
+      p {
+        margin-top: .5rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.no-gutters {
+  & > .box {
+    padding: 25px;
+
+    @include md {
+      padding: 50px;
     }
   }
 }
 
 .box {
-  padding: 50px;
+  padding: 25px;
+
+  @include md {
+    padding: 50px;
+  }
   border-radius: 10px;
   box-shadow: -2.1px 29.9px 35px 0 rgba(46, 21, 107, 0.09);
   background-color: #ffffff;
@@ -683,14 +831,35 @@ section#metrics {
   p {
     margin-bottom: 0;
   }
-
 }
 
 section#how_to_stake {
+  div.container > p {
+    @include lg-max {
+      text-align: center;
+    }
+  }
+
+  .box {
+    p {
+        text-align: center;
+      }
+  }
+
   .guide {
-    padding: 30px;
+    padding: 30px 0;
+
+    @include xl {
+      padding: 30px 15px;
+    }
+
     display: flex;
     align-items: center;
+
+    @include sm-max {
+      flex-direction: column;
+    }
+
     margin: 15px 0;
 
     &-logo {
@@ -698,8 +867,17 @@ section#how_to_stake {
       height: 200px;
       border-radius: 6px;
       border: 1px solid #e9e8ed;
+      background-color: #fff;
       flex: 0 0 200px;
-      margin-right: 30px;
+
+      @include sm-max {
+        margin-bottom: 30px;
+      }
+
+      @include sm {
+        margin-right: 30px;
+      }
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -743,6 +921,41 @@ section#history {
 #newsletter {
   background-color: #f3f8fe;
   padding: 40px 0;
+
+  h4 {
+    text-align: center;
+
+    @include md-max {
+      font-size: 20px;
+    }
+
+    @include lg-max {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .btn {
+    @include sm-max {
+      width: 100%;
+    }
+  }
+
+  form + .message {
+    margin-top: 2rem;
+  }
+
+  .message {
+    margin-bottom: 0;
+    text-align: center;
+
+    &.error {
+      color: #721c24;
+    }
+
+    &.success {
+      color: #155724
+    }
+  }
 }
 
 .page-enter-active, .page-leave-active {
@@ -751,4 +964,66 @@ section#history {
 
 .page-enter, .page-leave-to {
   opacity: 0;
+}
+
+section#staking {
+  @include lg-max {
+    text-align: center;
+  }
+}
+
+section#how_work {
+  @include lg-max {
+    text-align: center;
+  }
+}
+
+section#projects {
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include lg {
+      justify-content: flex-start;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 52px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
+
+      @include lg {
+        margin-left: 0;
+      }
+
+      @include xl {
+        margin-right: 70px;
+      }
+    }
+  }
+}
+
+section#partnership {
+  div.container > p {
+    @include lg-max {
+      text-align: center;
+    }
+  }
+}
+
+section#terms {
+  @include lg-max {
+    text-align: center;
+  }
+}
+
+section#glossary {
+  @include lg-max {
+    text-align: center;
+  }
 }

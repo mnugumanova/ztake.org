@@ -36,29 +36,37 @@
             <div class="container">
                 <h3>Network key metrics</h3>
 
-                <div class="row">
-                    <div class="col-lg-3">
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-xl-3">
                         <div class="metric">
-                            <span>5,000</span>
-                            <p>ATOMS self bonded</p>
+                            <div class="metric-content">
+                                <div>5,000</div>
+                                <p>ATOMS self bonded</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-6 col-xl-3">
                         <div class="metric">
-                            <span>8%</span>
-                            <p>Validator Fee</p>
+                            <div class="metric-content">
+                                <div>8<span class="percent">%</span></div>
+                                <p>Validator Fee</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-6 col-xl-3">
                         <div class="metric">
-                            <span>~ 7%</span>
-                            <p>Innitial rate of inflation</p>
+                            <div class="metric-content">
+                                <div><span class="tilde">~</span>7<span class="percent">%</span></div>
+                                <p>Innitial rate of inflation</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-6 col-xl-3">
                         <div class="metric">
-                            <span>3 weeks</span>
-                            <p>Unbonding period</p>
+                            <div class="metric-content">
+                                <div>3 <span class="weeks">weeks</span></div>
+                                <p>Unbonding period</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -73,8 +81,8 @@
                 <p>
                     It contains all the necessary information for delegators to interact with the Cosmos Hub through the Command-Line Interface (CLI).
                 </p>
-                <div class="row guides pt-5">
-                    <div class="col-lg-6">
+                <div class="row guides justify-content-md-center align-items-lg-center pt-5">
+                    <div class="col-md-9 col-lg-7 col-xl-6">
                         <div class="guide">
                             <div class="guide-logo">
                                 <img height="159" width="159" src="../assets/img/staking/cosmos-logo.jpg" srcset="../assets/img/staking/cosmos-logo@2x.jpg 2x, ../assets/img/staking/cosmos-logo@3x.jpg 3x" alt="">
@@ -88,7 +96,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-7 col-lg-5 col-xl-6">
                         <div class="box d-flex flex-column justify-content-center align-items-center">
 
                             <h4>1:1 delegation help</h4>
@@ -108,7 +116,7 @@
             <div class="container">
                 <h3>Proposal voting hitory</h3>
                 <div class="box">
-                    <table class="table table-borderless">
+                    <table class="table table-borderless table-responsive">
                         <thead>
                         <tr>
                             <th>Porposal id</th>
