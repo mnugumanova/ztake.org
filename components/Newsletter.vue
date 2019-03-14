@@ -17,7 +17,7 @@
                     </label>
                 </div>
                 <div class="col-12 col-sm-auto col-lg-3 col-xl-2">
-                    <button type="submit" class="btn btn-primary btn-lg">Send email</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
                 </div>
             </form>
 

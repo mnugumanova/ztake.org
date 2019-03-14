@@ -31,13 +31,10 @@
         <div class="disclaimer">
             <div class="container">
                 <h6>
-                    Website disclaimer
+                    Website Disclaimer
                 </h6>
                 <p>
-                    Nothing in this website is an offer to sell, or the solicitation of an offer to buy, any tokens. Solana is publishing this website solely to receive feedback and comments from the public. If and when
-                    Solana offers for sale any tokens (or a Simple Agreement for Future Tokens), it will do so through definitive offering documents, including a disclosure document and risk factors. Those definitive
-                    documents also are expected to include an updated version of this website, which may differ significantly from the current version. If and when Solana makes such an offering in the United States,
-                    the offering likely will be available solely to accredited investors.
+                    This site is not intended to provide any investment, financial, legal, regulatory, accounting, tax or similar advice, and nothing on this site should be construed to acquire or dispose of any investment, or to engage in any investment strategy or transaction. Staking involves a high degree of risk and there is always the possibility of loss, including the loss of all staked digital assets. Nothing in this site may be considered as an offer or solicitation to purchase or sell securities or other services. For more information please see our terms of use.
                 </p>
             </div>
         </div>

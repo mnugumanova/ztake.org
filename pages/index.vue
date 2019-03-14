@@ -21,7 +21,8 @@
           </div>
         </div>
 
-        <a href="#" class="btn btn-primary btn-lg">Delegate cosmos atoms</a>
+        <!--<a href="#" class="btn btn-primary btn-lg">Delegate cosmos atoms</a>-->
+        <div class="box col-lg-8 box col-lg-8 col-sm-12">gaiacli tx staking delegate cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c 10000uatom --gas auto --gas-prices 0.001uatom --chain-id cosmoshub-1  --from yourKey</div>
       </div>
     </section>
     <section id="about">
@@ -67,18 +68,20 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <div class="card">
-              <div class="card-logo cosmos">
-                <img height="14" width="80" src="../assets/img/portfolio/cosmos.png" srcset="../assets/img/portfolio/cosmos@2x.png 2x, ../assets/img/portfolio/cosmos@3x.png 3x" alt="">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Cosmos</h5>
-                <div class="card-status">
-                  <div class="status-h">Status</div>
-                  <div class="status">Testnet</div>
+            <a href="https://cosmos.bigdipper.live/validator/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" target="_blank" rel="nofollow">
+              <div class="card">
+                <div class="card-logo cosmos">
+                  <img height="14" width="80" src="../assets/img/portfolio/cosmos.png" srcset="../assets/img/portfolio/cosmos@2x.png 2x, ../assets/img/portfolio/cosmos@3x.png 3x" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Cosmos</h5>
+                  <div class="card-status">
+                    <div class="status-h">Status</div>
+                    <div class="status">Mainnet</div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card">
@@ -308,7 +311,7 @@
                         <input type="email" class="form-control" id="inputEmail" placeholder="Your email" required>
                     </label> -->
                 <a href="https://t.me/cosmos_ztake" target="_blank" rel="nofollow">
-                  <button type="button" class="btn btn-primary btn-lg"> Contact US </button>
+                  <button type="button" class="btn btn-primary btn-lg"> Message us </button>
                 </a>
                 <!--</form>-->
               </div>
