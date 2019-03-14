@@ -647,6 +647,14 @@ section#contact {
   &-copy {
     background-image: url("../img/icons/copy-icon.svg");
   }
+
+  &-check {
+    background-image: url("../img/icons/check-icon.svg");
+  }
+
+  &-cancel {
+    background-image: url("../img/icons/cancel-icon.svg");
+  }
 }
 
 footer#footer {
@@ -936,29 +944,161 @@ section#how_to_stake {
 
 
 section#history {
-  .box {
-    padding: 10px;
+  .history {
+    @include lg-max {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
-  .table {
-    th {
-      white-space: nowrap;
+  .history-row {
+    text-align: left;
+
+    @extend .box;
+    padding: 40px;
+
+    @include sm-max {
+      padding: 20px;
     }
 
-    .id {
+    @include lg-max {
+      margin-bottom: 50px;
     }
 
-    .title {
+    @include lg {
+      padding: 20px 40px 0 40px;
+      border-radius: 0;
+      &:first-child {
+        padding-top: 40px;
+
+        @include sm-max {
+          padding-top: 10px;
+        }
+
+        padding-bottom: 0;
+        border-radius: 10px 10px 0 0;
+
+        .col-history {
+          h5 {
+            display: block;
+          }
+        }
+      }
+
+
+      &:last-child {
+        padding-bottom: 40px;
+
+        @include sm-max {
+          padding-bottom: 20px;
+        }
+
+        border-radius: 0 0 10px 10px;
+      }
     }
 
-    .vote {
-    }
+    .col-history {
+      display: flex;
+      flex-direction: column;
 
-    .abs {
-    }
+      &.id {
+        color: #1d0055;
 
-    .expl {
-      width: 30%;
+        p {
+          font-weight: 500;
+        }
+      }
+
+      &.title {
+        color: #1d0055;
+
+        p {
+          font-weight: 500;
+        }
+      }
+
+      &.vote {
+        color: #3f3cd8;
+
+        @include md-max {
+          margin-top: 3rem;
+        }
+
+        @include sm-max {
+          margin-top: 2rem;
+        }
+
+        p {
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+
+      &.abs {
+        color: #3f3cd8;
+
+        @include lg-max {
+          margin-top: 3rem;
+        }
+
+        @include sm-max {
+          margin-top: 2rem;
+        }
+
+        p {
+          font-weight: 500;
+        }
+      }
+
+      &.expl {
+        @include lg-max {
+          margin-top: 3rem;
+        }
+
+        @include sm-max {
+          margin-top: 2rem;
+        }
+
+        color: #4b5378;
+      }
+
+      h5 {
+        font-size: 14px;
+        line-height: 2.14;
+        color: #1d0055;
+        margin-bottom: 2rem;
+
+        @include sm-max {
+          margin-bottom: 1rem;
+        }
+
+        font-weight: 400;
+
+        @include lg {
+          display: none;
+        }
+
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 2.14;
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        color: inherit;
+        margin-left: 0;
+
+        .icon {
+          margin-right: 5px;
+          background-color: transparent;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
     }
   }
 }
