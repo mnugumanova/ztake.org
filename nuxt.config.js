@@ -45,6 +45,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/vue-clipboard2',
     '~plugins/vue-jsonp'
   ],
 
@@ -55,7 +56,8 @@ module.exports = {
     ['@nuxtjs/sitemap', {
       hostname: 'https://ztake.org',
       generate: true
-    }]
+    }],
+    '@nuxtjs/dotenv'
   ],
 
   /*

@@ -41,7 +41,7 @@
             <img src="../assets/img/projects/logo-peppersec.svg" class="img-fluid" alt="">
           </a>
           <a href="https://www.blockchainlabs.nz" target="_blank">
-            <img src="../assets/img/projects/logo-blockchainlabs.png" srcset="../assets/img/projects/logo-blockchainlabs@2x.png 2x, ../assets/img/projects/logo-blockchainlabs@3x.png 3x" class="img-fluid" alt="">
+            <img src="../assets/img/projects/logo-blockchainlabs.svg" class="img-fluid" alt="">
           </a>
           <a href="https://dragonereum.io" target="_blank">
             <img src="../assets/img/projects/logo-dragonereum.svg" class="img-fluid" alt="">

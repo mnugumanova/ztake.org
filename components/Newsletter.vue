@@ -32,7 +32,7 @@ export default {
     name: "Newsletter",
     data() {
         return {
-            url: "https://ztake.us20.list-manage.com/subscribe/post-json?u=44f6e82c21716266059d883f2&amp;id=cd8f0b1274",
+            url: process.env.MAILCHIMP_NEWSLETTER_URL,
             email: '',
             successMessage: null,
             errorMessage: null
@@ -43,11 +43,8 @@ export default {
             this.$jsonp(this.url, { EMAIL: this.email, callbackQuery: 'c' }).then(res => {
                 if (res.result === 'success')
                     this.successMessage = res.msg
-                else {
-                    this.errorMessage = res.msg
-                    this.errorMessage = this.errorMessage.substring(this.errorMessage.indexOf('-')+1, this.errorMessage.length)
-                }
-
+                else
+                    this.errorMessage = res.msg.match(/(^\d\s-\s)?(.+)/)[2]
             })
         }
     }
