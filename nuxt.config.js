@@ -53,6 +53,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
     ['@nuxtjs/sitemap', {
       hostname: 'https://ztake.org',
       generate: true

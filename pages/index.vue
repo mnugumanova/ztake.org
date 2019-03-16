@@ -271,7 +271,7 @@
               with our validator as a third-party delegator:
             </p>
             <p>
-              Atoms at genesis: 5,000
+              Atoms Delegated: {{atoms}}
             </p>
             <p>
               Fee schedule: 8%
@@ -325,9 +325,19 @@
 
 <script>
 import stakingCommand from '@/components/stakingCommand.vue'
+
 export default {
   components: {
     stakingCommand
+  },
+  data() {
+      return {
+          atoms: '0'
+      }
+  },
+  mounted: async function () {
+     const data = await this.$axios.$get(`https://api.cosmostation.io/staking/validator/${process.env.COSMOS_VAL}`)
+     this.atoms = new Intl.NumberFormat('en-US').format(parseInt(data[0].delegator_shares/1000000))
   }
 }
 </script>
