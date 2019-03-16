@@ -18,7 +18,7 @@
                         <img src="../assets/img/staking/staking.svg" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="box col-lg-8 col-sm-12">gaiacli tx staking delegate cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c 10000uatom --gas auto --gas-prices 0.001uatom --chain-id cosmoshub-1  --from yourKey</div>
+                <staking-command/>
             </div>
         </section>
         <section id="how_work">
@@ -161,10 +161,12 @@
 
 <script>
 import Newsletter from '@/components/Newsletter.vue'
+import stakingCommand from '@/components/stakingCommand.vue'
 
 export default {
     components: {
-        Newsletter
+        Newsletter,
+        stakingCommand
     },
     data() {
         return {

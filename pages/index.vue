@@ -22,7 +22,7 @@
         </div>
 
         <!--<a href="#" class="btn btn-primary btn-lg">Delegate cosmos atoms</a>-->
-        <div class="box col-lg-8 box col-lg-8 col-sm-12">gaiacli tx staking delegate cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c 10000uatom --gas auto --gas-prices 0.001uatom --chain-id cosmoshub-1  --from yourKey</div>
+        <staking-command/>
       </div>
     </section>
     <section id="about">
@@ -322,3 +322,12 @@
     </section>
   </div>
 </template>
+
+<script>
+import stakingCommand from '@/components/stakingCommand.vue'
+export default {
+  components: {
+    stakingCommand
+  }
+}
+</script>
