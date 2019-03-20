@@ -9,23 +9,23 @@
                 <div class="based">
                     Based in Seattle, USA
                 </div>
-                <!--        <ul class="nav social">
-                               <li>
-                                   <a href="#">
-                                       <i class="icon icon-facebook"></i>
-                                   </a>
-                               </li>
-                               <li>
-                                   <a href="#">
-                                       <i class="icon icon-github"></i>
-                                   </a>
-                               </li>
-                               <li>
-                                   <a href="#">
-                                       <i class="icon icon-twitter"></i>
-                                   </a>
-                               </li>
-                           </ul> -->
+                  <ul class="nav social">
+                      <!--     <li>
+                           <a href="#">
+                               <i class="icon icon-facebook"></i>
+                           </a>
+                       </li>
+                       <li>
+                           <a href="#">
+                               <i class="icon icon-github"></i>
+                           </a>
+                        </li>-->
+                     <li>
+                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="nofollow">
+                             <i class="icon icon-twitter"></i>
+                         </a>
+                     </li>
+                  </ul>
             </div>
         </div>
         <div class="disclaimer">

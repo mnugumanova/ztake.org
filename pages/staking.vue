@@ -128,21 +128,17 @@
                 <h3>Proposal voting hitory</h3>
                 <div v-if="porposals.length > 0" class="history">
                     <div class="row history-row" v-for="(p,index) in porposals" :key="index">
-                        <div class="col-history id col-6 col-md-4 col-lg-2">
+                        <div class="col-history id col-5 col-md-2 col-lg-2">
                             <h5>Porposal id</h5>
                             <p>{{p.id}}</p>
                         </div>
-                        <div class="col-history title col-6 col-md-4 col-lg-2">
+                        <div class="col-history title col-8 col-md-6 col-lg-4">
                             <h5>Title</h5>
                             <p>{{p.title}}</p>
                         </div>
                         <div class="col-history vote col-6 col-md-4 col-lg-2">
-                            <h5>How i voted</h5>
+                            <h5>Our Vote</h5>
                             <p><i class="icon" :class="p.vote.icon"></i>{{p.vote.text}}</p>
-                        </div>
-                        <div class="col-history abs col-6 col-md-4 col-lg-2">
-                            <h5>Abstain</h5>
-                            <p>{{p.abstain}}</p>
                         </div>
                         <div class="col-history expl col-12 col-md-8 col-lg-4">
                             <h5>Explanation</h5>
@@ -171,15 +167,14 @@ export default {
     data() {
         return {
             porposals: [
-                // {
-                //     id: '14682008462',
-                //     title: 'Lorem ipsum',
-                //     vote: {
-                //         icon: 'icon-check',
-                //         text: 'yes'
-                //     },
-                //     abstain: '26',
-                //     explanation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
+                 {
+                     id: '1',
+                     title: 'Adjustment of blocks_per_year to come aligned with actual block time',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'Average block time is indeed greater than theoretical 5seconds. Hence, the adjustment is fare.'
                 // },
                 // {
                 //     id: '14682008461',
@@ -210,7 +205,7 @@ export default {
                 //     },
                 //     abstain: '12',
                 //     explanation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
-                // }
+                 }
             ]
         }
     },

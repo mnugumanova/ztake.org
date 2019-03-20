@@ -274,7 +274,7 @@
               Atoms Delegated: {{atoms}}
             </p>
             <p>
-              Fee schedule: 8%
+              Commission rate: 4%
             </p>
           </div>
         </div>
