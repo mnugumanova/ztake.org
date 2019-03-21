@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/miro4ka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ztake.org
+  * I am miro4ka (https://keybase.io/miro4ka) on keybase.
+  * I have a public key ASCl4WlmzGJyv8fAbFSkyI8vzZ7iNbxqJefah46ForDUKwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a5e16966cc6272bfc7c06c54a4c88f2fcd9ee235bc6a25e7da878e85a2b0d42b0a",
+      "host": "keybase.io",
+      "kid": "0120a5e16966cc6272bfc7c06c54a4c88f2fcd9ee235bc6a25e7da878e85a2b0d42b0a",
+      "uid": "6824674bb0ce4fb713eee1bdad9bd219",
+      "username": "miro4ka"
+    },
+    "merkle_root": {
+      "ctime": 1553127367,
+      "hash": "826e3affe1df581b3552cc4e7915905e98e779213b056eaeef5c376d4f2dd9d408d76b0fdf4b83c5b43bd3439cc5b7b7d984e32488011796732536aaf298870b",
+      "hash_meta": "7545867fb39dfc932d86853e5086421f4ed2c5344244495130da5d0a1f4b4536",
+      "seqno": 4992492
+    },
+    "service": {
+      "entropy": "whSwcPf4LL6CMPLRzOzIQ2Zm",
+      "hostname": "ztake.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553127375,
+  "expire_in": 504576000,
+  "prev": "5da909b69fd47d361e26ae7d2bcfc342077618ab70f4a0e8a25265e4ade14a86",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpeFpZsxicr/HwGxUpMiPL82e4jW8aiXn2oeOhaKw1CsKp3BheWxvYWTESpcCD8QgXakJtp/UfTYeJq59K8/DQgd2GKtw9KDoolJl5K3hSobEIOLtOeK9O1BM7LkUjasKR6Pq2B6ZsIgsXqFOJBMPvj7wAgHCo3NpZ8RAPFgB9edqxaZbP8Yoo3VmWBn7UmZ4G0saIdF3fGC8NZOLVNuuOxrp9RziNmXoNOi8129Juo+TgCw+Od/a0GtPCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMdrnDCyRIBvT7oZ/igQkYNL4mJZGfM4B+rMEXibyXGXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/miro4ka
+
+==================================================================
