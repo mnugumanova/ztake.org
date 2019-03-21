@@ -58,7 +58,11 @@ module.exports = {
       hostname: 'https://ztake.org',
       generate: true
     }],
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-136477349-1',
+      dev: false
+    }]
   ],
 
   /*

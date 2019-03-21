@@ -21,7 +21,7 @@
                            </a>
                         </li>-->
                      <li>
-                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="nofollow">
+                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="nofollow" aria-label="Twitter">
                              <i class="icon icon-twitter"></i>
                          </a>
                      </li>
