@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <!--<a href="#" class="btn btn-primary btn-lg">Delegate cosmos atoms</a>-->
+        <a href="https://hubble.figment.network/chains/cosmoshub-1/validators/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" class="btn btn-primary btn-lg" target="_blank" rel="nofollow">Delegate Now</a>
         <staking-command/>
       </div>
     </section>
@@ -114,7 +114,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://t.me/cosmos_ztake" target="_blank" rel="nofollow">
+            <a href="https://t.me/staking_atoms" target="_blank" rel="nofollow">
               <div class="card">
                 <div class="card-logo">
                   <img height="46" width="46" src="../assets/img/portfolio/plus.svg" alt="">
