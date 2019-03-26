@@ -175,36 +175,15 @@ export default {
                          text: 'yes'
                      },
                      explanation: 'Average block time is indeed greater than theoretical 5seconds. Hence, the adjustment is fare.'
-                // },
-                // {
-                //     id: '14682008461',
-                //     title: 'Lorem ipsum',
-                //     vote: {
-                //         icon: 'icon-cancel',
-                //         text: 'no'
-                //     },
-                //     abstain: '12',
-                //     explanation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
-                // },
-                // {
-                //     id: '14682008462',
-                //     title: 'Lorem ipsum',
-                //     vote: {
-                //         icon: 'icon-check',
-                //         text: 'yes'
-                //     },
-                //     abstain: '26',
-                //     explanation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
-                // },
-                // {
-                //     id: '14682008461',
-                //     title: 'Lorem ipsum',
-                //     vote: {
-                //         icon: 'icon-cancel',
-                //         text: 'no'
-                //     },
-                //     abstain: '12',
-                //     explanation: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'
+                 },
+                 {
+                     id: '2',
+                     title: 'ATOM Transfer Enablement',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'Network is stable and ready for the Phase II.',
                  }
             ]
         }
