@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" itemscope itemtype="http://schema.org/AboutPage">
     <section id="about">
       <div class="container">
         <div class="row">
@@ -28,22 +28,22 @@
         <h3>Crypto projects we were part of</h3>
 
         <div class="projects">
-          <a href="https://vault12.com" target="_blank">
+          <a href="https://vault12.com" target="_blank" rel="noopener" aria-label="Read more about Vault12">
             <img src="../assets/img/projects/logo-vault-12.png" srcset="../assets/img/projects/logo-vault-12@2x.png 2x, ../assets/img/projects/logo-vault-12@3x.png 3x" class="img-fluid" alt="">
           </a>
-          <a href="https://poa.network" target="_blank">
+          <a href="https://poa.network" target="_blank" rel="noopener" aria-label="Read more about POA network">
             <img src="../assets/img/projects/logo-poa.svg" class="img-fluid" alt="">
           </a>
-          <a href="https://multisender.app" target="_blank">
+          <a href="https://multisender.app" target="_blank" rel="noopener" aria-label="Read more about multisender">
             <img src="../assets/img/projects/logo-multisender.png" srcset="../assets/img/projects/logo-multisender@2x.png 2x, ../assets/img/projects/logo-multisender@3x.png 3x" class="img-fluid" alt="">
           </a>
-          <a href="https://peppersec.com" target="_blank">
+          <a href="https://peppersec.com" target="_blank" rel="noopener" aria-label="Read more about peppersec">
             <img src="../assets/img/projects/logo-peppersec.svg" class="img-fluid" alt="">
           </a>
-          <a href="https://www.blockchainlabs.nz" target="_blank">
+          <a href="https://www.blockchainlabs.nz" target="_blank" rel="noopener" aria-label="Read more about blockchainlabz">
             <img src="../assets/img/projects/logo-blockchainlabs.svg" class="img-fluid" alt="">
           </a>
-          <a href="https://dragonereum.io" target="_blank">
+          <a href="https://dragonereum.io" target="_blank" rel="noopener" aria-label="Read more about dragonereum">
             <img src="../assets/img/projects/logo-dragonereum.svg" class="img-fluid" alt="">
           </a>
         </div>
