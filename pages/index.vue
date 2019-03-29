@@ -338,9 +338,9 @@ export default {
   methods: {
     async getDelegatedAtoms({ app }) {
       try {
-        const data = await app.$axios.$get(`https://api.cosmostation.io/staking/validator/${process.env.COSMOS_VAL}`)
+        const data = await app.$axios.$get(`https://api.cosmostation.io/v1/staking/validator/${process.env.COSMOS_VAL}`)
         return {
-          atoms: new Intl.NumberFormat('en-US').format(parseInt(data[0].delegator_shares/1000000))
+          atoms: new Intl.NumberFormat('en-US').format(Number(data.delegator_shares)/1000000)
         }
       } catch (e) {
         // eslint-disable-next-line no-console
@@ -357,7 +357,8 @@ export default {
     }
   },
   mounted: async function () {
-    return await this.getDelegatedAtoms({ app: this })
+    const { atoms } = await this.getDelegatedAtoms({ app: this })
+    this.atoms = atoms
   }
 }
 </script>
