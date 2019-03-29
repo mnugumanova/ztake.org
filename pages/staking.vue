@@ -184,6 +184,15 @@ export default {
                          text: 'yes'
                      },
                      explanation: 'Network is stable and ready for the Phase II.',
+                 },
+                 {
+                     id: '2*',
+                     title: 'ATOM Transfer Enablement',
+                     vote: {
+                         icon: 'icon-cancel',
+                         text: 'no with veto'
+                     },
+                     explanation: 'Updated vote following tendermint recommendation.',
                  }
             ]
         }

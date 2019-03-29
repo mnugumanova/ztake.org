@@ -14,14 +14,14 @@
                            <a href="#">
                                <i class="icon icon-facebook"></i>
                            </a>
-                       </li>
+                       </li> -->
                        <li>
-                           <a href="#">
-                               <i class="icon icon-github"></i>
+                           <a href="https://t.me/staking_atoms" target="_blank" rel="noopener" aria-label="Telegram">
+                               <i class="icon icon-message"></i>
                            </a>
-                        </li>-->
+                        </li>
                      <li>
-                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="nofollow" aria-label="Twitter">
+                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="noopener" aria-label="Twitter">
                              <i class="icon icon-twitter"></i>
                          </a>
                      </li>
