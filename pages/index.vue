@@ -335,15 +335,19 @@ export default {
       atoms: '0'
     }
   },
-  async asyncData({app}) {
-    const data = await app.$axios.$get(`https://api.cosmostation.io/staking/validator/${process.env.COSMOS_VAL}`)
-    return {
-      atoms: new Intl.NumberFormat('en-US').format(parseInt(data[0].delegator_shares/1000000))
+  async asyncData({ app }) {
+    try {
+      const data = await app.$axios.$get(`https://api.cosmostation.io/staking/validator/${process.env.COSMOS_VAL}`)
+      return {
+        atoms: new Intl.NumberFormat('en-US').format(parseInt(data[0].delegator_shares/1000000))
+      }
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.error(e)
+      return {
+        atoms: '1,259,853'
+      }
     }
-  },
-  mounted: async function () {
-    const data = await this.$axios.$get(`https://api.cosmostation.io/staking/validator/${process.env.COSMOS_VAL}`)
-    this.atoms = new Intl.NumberFormat('en-US').format(parseInt(data[0].delegator_shares/1000000))
   }
 }
 </script>
