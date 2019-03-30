@@ -45,15 +45,15 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div>5,000</div>
-                                <p>ATOMS self bonded</p>
+                                <div> 1.27K</div>
+                                <p>ATOMS at stake</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div>8<span class="percent">%</span></div>
+                                <div>4<span class="percent">%</span></div>
                                 <p>Validator Fee</p>
                             </div>
                         </div>
@@ -61,8 +61,8 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div><span class="tilde">~</span>7<span class="percent">%</span></div>
-                                <p>Innitial rate of inflation</p>
+                                <div><span class="tilde">~</span>7.20<span class="percent">%</span></div>
+                                <p>Current rate of inflation</p>
                             </div>
                         </div>
                     </div>
