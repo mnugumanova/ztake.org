@@ -6,12 +6,12 @@
           <div class="col-lg-6">
             <h3>About</h3>
 
-            <p>We are early blockchain adopters with extensive background in tech space. We have both worked for
+            <p>We are early blockchain adopters with an extensive background in tech space. We have both worked for
               various size IT companies in the past including Amazon and Salesforce. Our tech lead - Roman is a
               top-notch blockchain engineer with a particular passion to smart contracts and Mira (COO) is a
               certified Washington notary who has been a long time PoA validator and specializes in Proof of Stake
-              consensys research. Our headquarter is in Seattle, US, one of the most stable countries on a
-              political, economical, and social level.</p>
+              consensus research. Our headquarter is in Seattle, US, one of the most stable countries on a
+              political, economic, and social level.</p>
 
             <p>We have been actively involved in running and testing the COSMOS testnets as well as participated in
               Game of Stakes. Due to our deep tech background and connections, we would like to leverage our

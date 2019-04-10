@@ -81,7 +81,7 @@
             <div class="container">
                 <h3>How to stake</h3>
                 <p>
-                    There are currently only one security-audited guide available: Official Delegators guide from Cosmos
+                    There is currently only one security-audited guide available: Official Delegators guide from Cosmos
                     team.
                 </p>
                 <p>
@@ -112,7 +112,7 @@
                             <h4>1:1 delegation help</h4>
 
                             <p>
-                                If you need more guidance in delegation process, we are here for you.
+                                If you need more guidance in the delegation process, we are here for you.
                                 Email us at
                             </p>
 
@@ -125,11 +125,11 @@
         </section>
         <section id="history">
             <div class="container">
-                <h3>Proposal voting hitory</h3>
+                <h3>Proposal voting history</h3>
                 <div v-if="porposals.length > 0" class="history">
                     <div class="row history-row" v-for="(p,index) in porposals" :key="index">
                         <div class="col-history id col-5 col-md-2 col-lg-2">
-                            <h5>Porposal id</h5>
+                            <h5>Proposal id</h5>
                             <p>{{p.id}}</p>
                         </div>
                         <div class="col-history title col-8 col-md-6 col-lg-4">
@@ -183,7 +183,7 @@ export default {
                          icon: 'icon-check',
                          text: 'yes'
                      },
-                     explanation: 'Network is stable and ready for the Phase II.',
+                     explanation: 'The network is stable and ready for the Phase II.',
                  },
                  {
                      id: '2*',

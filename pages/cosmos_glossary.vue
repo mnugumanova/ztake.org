@@ -51,14 +51,14 @@
                             role of validators is to run a full-node and participate in consensus by broadcasting votes which
                             contain cryptographic signatures signed by their private key. Validators commit new blocks in the
                             blockchain and receive revenue in exchange for their work. They must also participate in governance
-                            by voting on proposals. Only the top 100 validators with highest stake are part of the Active
+                            by voting on proposals. Only the top 100 validators with the highest stake are part of the Active
                             validator set.</p>
 
                         <h4 id="minimum_self-bond_amount" class="pt-lg-5" itemprop="name">Minimum self-bond amount</h4>
-                        <p itemprop="description">Minimum amount of Atoms the validator candidate need to have bonded at all time. If the validator’s
+                        <p itemprop="description">The minimum amount of Atoms the validator candidate need to have bonded at all time. If the validator’s
                             self-bonded stake falls below this limit, their entire staking pool (i.e. all its delegators) will
                             unbond. This parameter exists as a safeguard for delegators. Indeed, when a validator misbehaves,
-                            part of their total stake gets slashed. This included the validator’s self-delegateds stake as well
+                            part of their total stake gets slashed. This included the validator’s self-delegated stake as well
                             as their delegators’ stake. Thus, a validator with a high amount of self-delegated Atoms has more
                             skin-in-the-game than a validator with a low amount. The minimum self-bond amount parameter
                             guarantees to delegators that a validator will never fall below a certain amount of self-bonded
@@ -70,7 +70,7 @@
                             validator operator.</p>
 
                         <h4 id="maximum_commission" class="pt-lg-5" itemprop="name">Maximum commission</h4>
-                        <p itemprop="description"> itemprop="description"The maximum commission rate this validator candidate can charge. This parameter cannot be changed by
+                        <p itemprop="description">The maximum commission rate this validator candidate can charge. This parameter cannot be changed by
                             the validator operator.</p>
                     </div>
                 </div>

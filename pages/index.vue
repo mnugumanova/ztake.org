@@ -12,7 +12,7 @@
             </h2>
             <p>
               We are a team of tech-savvy blockchain developers and enthusiasts who run nodes on PoS and PoA
-              blockchains. We took care all of the technical setup needed, so that you could easily stake your
+              blockchains. We took care all of the technical setup needed so that you could easily stake your
               assets.
             </p>
           </div>
@@ -39,7 +39,7 @@
               for PoA and PoS networks.
               We believe that these technologies will form the next significant chapter
               in the blockchain revolution. Our mission is to help retail and institutional investors stake
-              their crypto assets and earn the rewards while we do
+              their crypto assets and earn rewards while we do
               all the hard work.</p>
           </div>
         </div>
@@ -141,11 +141,11 @@
               <img height="90" width="73" src="../assets/img/high-security-standarts.svg" alt="">
             </div>
             <h4>
-              High security standards
+              High-security standards
             </h4>
             <p>
-              Our infrastructure consists of high
-              performance servers, enhanced DDoS protection and would continue evolve as the network matures.
+              Our infrastructure consists of high-performance servers, 
+              enhanced DDoS protection and would continue to evolve as the network matures.
             </p>
           </div>
           <div class="col-reason col-md-6 col-lg-4">
@@ -156,8 +156,8 @@
               Blockchain Expertise
             </h4>
             <p>
-              We are tech-savvy former engineers with deep technical understanding
-              of PoS and POA consensys focused
+              We are tech-savvy former engineers with a deep technical understanding
+              of PoS and POA consensus focused
               on Security and Quality
               of the service provided.
             </p>
@@ -170,7 +170,7 @@
               Education
             </h4>
             <p>
-              We are here to help you navigate complex world of PoS system. Checkout our step by step delegation guide and glossary.
+              We are here to help you navigate the complex world of PoS system. Check out our step by step delegation guide and glossary.
             </p>
           </div>
           <div class="col-reason col-md-6 col-lg-4">
@@ -183,7 +183,7 @@
             <p>
               We stake tokens alongside our
               delegators to have skin in a game
-              and to demonstrate our long-term interest in the networks. All payout are calculated and processed automatically by the network, so you recieve your portion of reward immediately
+              and to demonstrate our long-term interest in the networks. All payouts are calculated and processed automatically by the network, so you receive your portion of reward immediately
               once it is available.
             </p>
           </div>
@@ -195,7 +195,7 @@
               Transparency
             </h4>
             <p>
-              We are committed to be transparent about our on-chain governance decision making as well
+              We are committed being transparent about our on-chain governance decision making as well
               as our commission change rate schedule.
             </p>
           </div>
@@ -242,7 +242,7 @@
             <p>
               Best-in-class network connectivity for speed and throughput.
               Automatic system-level backups at regular intervals.
-              Redundant validator server setup available to switch at the moment’s notice.
+              Redundant validator server setup is available to switch at the moment’s notice.
               Multiple data replications across different racks, reducing the chances
               of data loss in case of hardware failure.
               All of the access points protected by multi-factor authentication (MFA).

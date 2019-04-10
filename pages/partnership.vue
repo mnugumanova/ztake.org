@@ -11,7 +11,7 @@
                         <h4>Our Suppot team is always available
                             to help and answer any questions</h4>
                         <p class="mb-4">If you an individual who is interested to get more information on our setup or the one who simply
-                            need more guidance in delegation process, we are here for you.
+                            need more guidance in the delegation process, we are here for you.
                             Email us at</p>
 
                         <a href="mailto:support@ztake.org"><i class="icon icon-message"></i> support@ztake.org</a>
