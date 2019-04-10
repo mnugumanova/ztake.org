@@ -81,12 +81,7 @@
             <div class="container">
                 <h3>How to stake</h3>
                 <p>
-                    There is currently only one security-audited guide available: Official Delegators guide from Cosmos
-                    team.
-                </p>
-                <p>
-                    It contains all the necessary information for delegators to interact with the Cosmos Hub through the
-                    Command-Line Interface (CLI).
+                    There are currently two security-audited guide available: Official Delegators guide to use CLI or web-wallet.
                 </p>
                 <div class="row guides justify-content-md-center align-items-lg-center pt-5">
                     <div class="col-md-9 col-lg-7 col-xl-6">
@@ -99,25 +94,40 @@
                             <div class="guide-body">
                                 <h5 class="guide-title">Cosmos</h5>
                                 <p class="guide-text">
-                                    Read Delegator's Guide
+                                    This document explains delegators how to interact with the Cosmos Hub through the Command-Line Interface (CLI).
                                 </p>
                                 <a href="https://cosmos.network/docs/gaia/delegator-guide-cli.html#table-of-contents"
                                    target="_blank" class="btn btn-primary btn-lg" rel="noopener">Cosmos guides</a>
                             </div>
                         </div>
                     </div>
+                   <div class="col-md-9 col-lg-7 col-xl-6">
+                        <div class="guide">
+                            <div class="guide-logo">
+                                <img height="159" width="159" src="../assets/img/staking/lunie-logo.png"
+                                     alt="">
+                            </div>
+                            <div class="guide-body">
+                                <h5 class="guide-title">Lunie</h5>
+                                <p class="guide-text">
+                                    The official web-wallet and UI for the Cosmos Hub.
+                                </p>
+                                <a href="https://blog.cosmos.network/lunie-is-live-196de97b6697"
+                                   target="_blank" class="btn btn-primary btn-lg" rel="noopener">Lunie guide</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-7 col-lg-5 col-xl-6">
                         <div class="box d-flex flex-column justify-content-center align-items-center">
 
-                            <h4>1:1 delegation help</h4>
+                            <h4>1:1 Delegation Help</h4>
 
                             <p>
                                 If you need more guidance in the delegation process, we are here for you.
-                                Email us at
-                            </p>
-
-                            <a href="mailto:support@ztake.org" class="pt-4"><i class="icon icon-message"></i>
+                                Email us at <a href="mailto:support@ztake.org" class="pt-4"><i class="icon icon-message"></i>
                                 support@ztake.org</a>
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
