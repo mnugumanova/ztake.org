@@ -203,6 +203,15 @@ export default {
                          text: 'no with veto'
                      },
                      explanation: 'Updated vote following tendermint recommendation.',
+                 },
+                  {
+                     id: '3',
+                     title: 'ATOM Transfer Enablement v2',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'We are against expedited rule but support transfer enablement',
                  }
             ]
         }
