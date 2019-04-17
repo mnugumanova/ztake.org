@@ -211,7 +211,16 @@ export default {
                          icon: 'icon-check',
                          text: 'yes'
                      },
-                     explanation: 'We are against expedited rule but support transfer enablement',
+                     explanation: 'We are against expedited rule but support transfer enablement.',
+                 },
+                 {
+                     id: '4',
+                     title: 'Proposal for issuance of fungible tokens directly on the Cosmos Hub',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'In our point of view, the network and stakeholders would benefit from the additional functionality that allows a form of "permissioned" token issuance.',
                  }
             ]
         }
