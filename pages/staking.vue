@@ -45,8 +45,8 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div> 1.27K</div>
-                                <p>ATOMS at stake</p>
+                                <div> {{atoms}}M</div>
+                                <p>$Atoms at stake</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div><span class="tilde">~</span>7.20<span class="percent">%</span></div>
+                                <div><span class="tilde">~</span>7.45<span class="percent">%</span></div>
                                 <p>Current rate of inflation</p>
                             </div>
                         </div>
@@ -69,8 +69,8 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div>3 <span class="weeks">weeks</span></div>
-                                <p>Unbonding period</p>
+                                <div> 5.84K</div>
+                                <p>Self-bonded $Atoms</p>
                             </div>
                         </div>
                     </div>
@@ -176,6 +176,7 @@ export default {
     },
     data() {
         return {
+            atoms: '0',
             porposals: [
                  {
                      id: '1',
@@ -221,6 +222,24 @@ export default {
                          text: 'yes'
                      },
                      explanation: 'In our point of view, the network and stakeholders would benefit from the additional functionality that allows a form of "permissioned" token issuance.',
+                 },
+                 {
+                     id: '5',
+                     title: 'Do not Burn Deposits for Rejected Governance Proposals Unless Vetoed',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'Great step to support new ideas coming while avoiding spam proposals.',
+                 },
+                 {
+                     id: '6',
+                     title: 'Activate the Community Pool',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'It is about time, we start supporting ecosystem expantion via community tax pool allocations.',
                  }
             ]
         }
@@ -232,6 +251,31 @@ export default {
                 {hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Staking - ZTAKE'},
             ]
         }
-    }
+    },
+    methods: {
+        async getDelegatedAtoms({ app }) {
+          try {
+            const data = await app.$axios.$get(`https://api.cosmostation.io/v1/staking/validator/${process.env.COSMOS_VAL}`)
+            return {
+              atoms: new Intl.NumberFormat('en-US').format(Math.round(Number(data.delegator_shares)/10000000000)/100)
+            }
+          } catch (e) {
+            // eslint-disable-next-line no-console
+            console.error(e)
+            return {
+              atoms: '1,343,272'
+            }
+          }
+        }
+      },
+      async asyncData() {
+        return {
+          atoms: '1,343,272'
+        }
+      },
+      mounted: async function () {
+        const { atoms } = await this.getDelegatedAtoms({ app: this })
+        this.atoms = atoms
+      }
 }
 </script>

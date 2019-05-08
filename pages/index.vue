@@ -360,14 +360,14 @@ export default {
         // eslint-disable-next-line no-console
         console.error(e)
         return {
-          atoms: '1,259,853'
+          atoms: '1,343,272'
         }
       }
     }
   },
   async asyncData() {
     return {
-      atoms: '1,259,853'
+      atoms: '1,343,272'
     }
   },
   mounted: async function () {
