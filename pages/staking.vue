@@ -225,15 +225,24 @@ export default {
                  },
                  {
                      id: '5',
-                     title: 'Do not Burn Deposits for Rejected Governance Proposals Unless Vetoed',
+                     title: 'Expedited Cosmos Upgrade Proposal',
                      vote: {
                          icon: 'icon-check',
                          text: 'yes'
                      },
-                     explanation: 'Great step to support new ideas coming while avoiding spam proposals.',
+                     explanation: '',
                  },
                  {
                      id: '6',
+                     title: 'Activate the Community Pool',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'It is about time, we start supporting ecosystem expantion via community tax pool allocations.',
+                 },
+                 {
+                     id: '7',
                      title: 'Activate the Community Pool',
                      vote: {
                          icon: 'icon-check',
