@@ -98,7 +98,7 @@
             <p>This Agreement and any operating rules for the website and its services established by Ztake.org
               constitute the entire agreement of the parties with respect to the subject matter hereof, and
               supersede all previous written or oral agreements between the parties with respect to such subject
-              matter. This Agreement shall be construed in accordance with the laws of the Denmark without regard
+              matter. This Agreement shall be construed in accordance with the laws of the Washington without regard
               to its conflict of laws rules. No waiver by either party of any breach or default hereunder shall be
               deemed to be a waiver of any preceding or subsequent breach or default. The section headings used
               herein are for convenience only and shall not be given any legal import.</p>
