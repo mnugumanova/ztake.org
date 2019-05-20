@@ -21,7 +21,7 @@
                            </a>
                         </li>
                      <li>
-                         <a href="https://twitter.com/cryptomira1" target="_blank" rel="noopener" aria-label="Twitter">
+                         <a href="https://twitter.com/ztake_org" target="_blank" rel="noopener" aria-label="Twitter">
                              <i class="icon icon-twitter"></i>
                          </a>
                      </li>

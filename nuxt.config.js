@@ -17,8 +17,8 @@ module.exports = {
       { name: 'description', content: 'Ztake.org provides a safe, secure and affordable staking service for Atom holders to share in the benefits of Cosmos’s PoS protocol. By delegating your tokens holdings to us, you\'ve a chance to earn interest on your tokens while keeping full control of your private keys and avoiding the complexity of running a validator node' },
       { name: 'twitter:card', content: 'summary_large_image'},
       { name: 'twitter:title', content: 'US Cosmos Validator'},
-      { name: 'twitter:description', content: 'We are a team of tech-savvy blockchain developers and enthusiasts who run nodes on PoS and PoA blockchains. We took care all of the technical setup needed, so that you could easily stake your assets.'},
-      { name: 'twitter:image', content: 'https://ztake.org/_nuxt/img/84e5aee.svg'},
+      { name: 'twitter:description', content: 'Stake $ATOMs with Ztake.org'},
+      { name: 'twitter:image', content: 'https://ztake.org/_nuxt/img/delegation.png'},
       { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'ZTAKE | US-based Cosmos Validator - Stake Atoms with us'},
     ],
     link: [
