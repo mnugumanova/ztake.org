@@ -6,7 +6,7 @@
                 <p>We love nothing more than answering any question you have about this fascinating space.</p>
 
                 <div class="row no-gutters justify-content-around text-center mt-lg-5">
-                    <div class="col-md-7 col-lg-5 box d-lg-flex flex-lg-column justify-content-lg-around">
+                    <div class="col-md-7 col-lg-5 box d-lg-flex flex-lg-column">
 
                         <h4>Our Suppot team is always available
                             to help and answer any questions</h4>
@@ -16,7 +16,7 @@
 
                         <a href="mailto:support@ztake.org"><i class="icon icon-message"></i> support@ztake.org</a>
                     </div>
-                    <div class="mt-5 mt-lg-0 col-md-7 col-lg-5 box d-lg-flex flex-lg-column justify-content-lg-around">
+                    <div class="mt-5 mt-lg-0 col-md-7 col-lg-5 box d-lg-flex flex-lg-column">
                         <h4>Special offer</h4>
                         <p class="mb-4">If you are Institutional investors or big exchange considering staking digital asset with us,
                             please reach out for a special offer.</p>

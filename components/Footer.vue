@@ -17,7 +17,7 @@
                        </li> -->
                        <li>
                            <a href="https://t.me/staking_atoms" target="_blank" rel="noopener" aria-label="Telegram">
-                               <i class="icon icon-message"></i>
+                               <i class="icon icon-telegram"></i>
                            </a>
                         </li>
                      <li>
