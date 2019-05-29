@@ -1228,3 +1228,20 @@ section#glossary {
 .gaiacli {
   overflow-wrap: break-word;
 }
+
+section#partnership {
+  @include lg {
+    .box {
+      h4 {
+        min-height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      p {
+        flex: 1;
+      }
+    }
+  }
+}
