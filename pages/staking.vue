@@ -61,7 +61,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div><span class="tilde">~</span>7.45<span class="percent">%</span></div>
+                                <div><span class="tilde">~</span>7.56<span class="percent">%</span></div>
                                 <p>Current rate of inflation</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div> 5.84K</div>
+                                <div> 6K</div>
                                 <p>Self-bonded $Atoms</p>
                             </div>
                         </div>
