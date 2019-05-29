@@ -45,7 +45,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div> {{atoms}}M</div>
+                                <div>{{atoms}}</div>
                                 <p>$Atoms at stake</p>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                 <p>
                     There are currently two security-audited guide available: Official Delegators guide to use CLI or web-wallet.
                 </p>
-                <div class="row guides justify-content-md-center align-items-lg-center pt-5">
+                <div class="row guides justify-content-md-center pt-5">
                     <div class="col-md-9 col-lg-7 col-xl-6">
                         <div class="guide">
                             <div class="guide-logo">
@@ -138,19 +138,19 @@
                 <h3>Proposal voting history</h3>
                 <div v-if="porposals.length > 0" class="history">
                     <div class="row history-row" v-for="(p,index) in porposals" :key="index">
-                        <div class="col-history id col-5 col-md-2 col-lg-2">
+                        <div class="col-history id col-sm-4 col-md-3 col-lg-2">
                             <h5>Proposal id</h5>
                             <p>{{p.id}}</p>
                         </div>
-                        <div class="col-history title col-8 col-md-6 col-lg-4">
+                        <div class="col-history title col-sm-8 col-md-6 col-lg-4">
                             <h5>Title</h5>
                             <p>{{p.title}}</p>
                         </div>
-                        <div class="col-history vote col-6 col-md-4 col-lg-2">
+                        <div class="col-history vote col-sm-4 col-md-3 col-lg-2">
                             <h5>Our Vote</h5>
                             <p><i class="icon" :class="p.vote.icon"></i>{{p.vote.text}}</p>
                         </div>
-                        <div class="col-history expl col-12 col-md-8 col-lg-4">
+                        <div class="col-history expl col-sm-8 col-md-8 col-lg-4">
                             <h5>Explanation</h5>
                             <p>{{p.explanation}}</p>
                         </div>
@@ -166,6 +166,7 @@
 </template>
 
 <script>
+const numeral = require('numeral')
 import Newsletter from '@/components/Newsletter.vue'
 import stakingCommand from '@/components/stakingCommand.vue'
 
@@ -176,7 +177,7 @@ export default {
     },
     data() {
         return {
-            atoms: '0',
+            atoms: '1.71m',
             porposals: [
                  {
                      id: '1',
@@ -262,29 +263,18 @@ export default {
         }
     },
     methods: {
-        async getDelegatedAtoms({ app }) {
-          try {
-            const data = await app.$axios.$get(`https://api.cosmostation.io/v1/staking/validator/${process.env.COSMOS_VAL}`)
-            return {
-              atoms: new Intl.NumberFormat('en-US').format(Math.round(Number(data.delegator_shares)/10000000000)/100)
-            }
-          } catch (e) {
-            // eslint-disable-next-line no-console
-            console.error(e)
-            return {
-              atoms: '1,343,272'
-            }
-          }
+      async getDelegatedAtoms({ app }) {
+        try {
+          const data = await app.$axios.$get(`https://sgapiv2.certus.one/v1/validator/${process.env.COSMOS_VAL}`)
+          this.atoms = numeral(data.validator.details.tokens).divide(1000000).format('0.00a')
+        } catch (e) {
+          // eslint-disable-next-line no-console
+          console.error(e)
         }
-      },
-      async asyncData() {
-        return {
-          atoms: '1,343,272'
-        }
-      },
-      mounted: async function () {
-        const { atoms } = await this.getDelegatedAtoms({ app: this })
-        this.atoms = atoms
       }
+    },    
+    mounted: async function () {
+      await this.getDelegatedAtoms({ app: this })
+    }
 }
 </script>

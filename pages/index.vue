@@ -338,6 +338,7 @@
 </template>
 
 <script>
+const numeral = require('numeral')
 import stakingCommand from '@/components/stakingCommand.vue'
 
 export default {
@@ -346,33 +347,22 @@ export default {
   },
   data() {
     return {
-      atoms: '0'
+      atoms: '1,711,492'
     }
   },
-  methods: {
-    async getDelegatedAtoms({ app }) {
-      try {
-        const data = await app.$axios.$get(`https://api.cosmostation.io/v1/staking/validator/${process.env.COSMOS_VAL}`)
-        return {
-          atoms: new Intl.NumberFormat('en-US').format(Number(data.delegator_shares)/1000000)
-        }
-      } catch (e) {
-        // eslint-disable-next-line no-console
-        console.error(e)
-        return {
-          atoms: '1,343,272'
+    methods: {
+      async getDelegatedAtoms({ app }) {
+        try {
+          const data = await app.$axios.$get(`https://sgapiv2.certus.one/v1/validator/${process.env.COSMOS_VAL}`)
+          this.atoms = numeral(data.validator.details.tokens).divide(1000000).format('0,0')
+        } catch (e) {
+          // eslint-disable-next-line no-console
+          console.error(e)
         }
       }
+    },    
+    mounted: async function () {
+      await this.getDelegatedAtoms({ app: this })
     }
-  },
-  async asyncData() {
-    return {
-      atoms: '1,343,272'
-    }
-  },
-  mounted: async function () {
-    const { atoms } = await this.getDelegatedAtoms({ app: this })
-    this.atoms = atoms
-  }
 }
 </script>
