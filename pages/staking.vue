@@ -61,7 +61,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div><span class="tilde">~</span>7.56<span class="percent">%</span></div>
+                                <div><span class="tilde">~</span>{{inflation}}<span class="percent">%</span></div>
                                 <p>Current rate of inflation</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div> 6K</div>
+                                <div>{{selfBondedAtoms}}</div>
                                 <p>Self-bonded $Atoms</p>
                             </div>
                         </div>
@@ -178,6 +178,8 @@ export default {
     data() {
         return {
             atoms: '1.71m',
+            selfBondedAtoms: '6.01k',
+            inflation: '7.56',
             porposals: [
                  {
                      id: '1',
@@ -266,7 +268,28 @@ export default {
       async getDelegatedAtoms({ app }) {
         try {
           const data = await app.$axios.$get(`https://sgapiv2.certus.one/v1/validator/${process.env.COSMOS_VAL}`)
-          this.atoms = numeral(data.validator.details.tokens).divide(1000000).format('0.00a')
+          app.atoms = numeral(data.validator.details.tokens).divide(1000000).format('0.00a')
+        } catch (e) {
+          // eslint-disable-next-line no-console
+          console.error(e)
+        }
+      },
+      async getSelfBondedAtoms({ app }) {
+        try {
+          const data = await app.$axios.$get(`https://rpc.lunie.io/staking/validators/${process.env.COSMOS_VAL}/delegations`)
+          data.forEach(d => {
+            if(d.delegator_address === process.env.ZTAKE_ADDRESS)
+              app.selfBondedAtoms = numeral(d.shares).divide(1000000).format('0.00a')
+          })
+        } catch (e) {
+          // eslint-disable-next-line no-console
+          console.error(e)
+        }
+      },
+      async getInflation({ app }) {
+        try {
+          const data = await app.$axios.$get(`https://rpc.lunie.io/minting/inflation`)
+          app.inflation = numeral(data).multiply(100).format('0.00')
         } catch (e) {
           // eslint-disable-next-line no-console
           console.error(e)
@@ -275,6 +298,8 @@ export default {
     },    
     mounted: async function () {
       await this.getDelegatedAtoms({ app: this })
+      await this.getSelfBondedAtoms({ app: this })
+      await this.getInflation({ app: this })
     }
 }
 </script>
