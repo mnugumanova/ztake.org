@@ -179,7 +179,7 @@ export default {
         return {
             atoms: '1.71m',
             selfBondedAtoms: '6.01k',
-            inflation: '7.56',
+            inflation: '7.57',
             porposals: [
                  {
                      id: '1',
