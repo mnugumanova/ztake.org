@@ -252,6 +252,33 @@ export default {
                          text: 'yes'
                      },
                      explanation: 'It is about time, we start supporting ecosystem expantion via community tax pool allocations.',
+                 },
+                 {
+                     id: '8',
+                     title: 'Notification for Security Critical Hard Fork at Block 482100',
+                     vote: {
+                         icon: 'icon-cancel',
+                         text: 'no vote'
+                     },
+                     explanation: "We've missed this voting proposal",
+                 },
+                 {
+                     id: '9',
+                     title: 'Increase Max Validator Set Size to 150',
+                     vote: {
+                         icon: 'icon-cancel',
+                         text: 'no deposits'
+                     },
+                     explanation: "This proposal didn't get enough deposits",
+                 },
+                 {
+                     id: '10',
+                     title: 'Increase Max Validator Set Size to 125',
+                     vote: {
+                         icon: 'icon-check',
+                         text: 'yes'
+                     },
+                     explanation: 'We support lowering barrier of entry for smaller validators.',
                  }
             ]
         }

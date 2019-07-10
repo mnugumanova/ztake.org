@@ -85,14 +85,14 @@
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card">
-              <div class="card-logo">
-                <img height="90" width="90" src="../assets/img/portfolio/terra.png" alt="">
+              <div class="card-logo xdai">
+                <img height="105" width="105" src="../assets/img/portfolio/xDai.svg" alt="">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Terra</h5>
+                <h5 class="card-title">xDai</h5>
                 <div class="card-status">
                   <div class="status-h">Status</div>
-                  <div class="status">Coming Soon</div>
+                  <div class="status">Mainnet</div>
                 </div>
               </div>
             </div>
