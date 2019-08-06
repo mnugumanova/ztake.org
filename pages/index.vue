@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <a href="https://hubble.figment.network/chains/cosmoshub-1/validators/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" class="btn btn-primary btn-lg" target="_blank" rel="nofollow">Delegate Now</a>
+        <a href="https://hubble.figment.network/chains/cosmoshub-2/validators/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" class="btn btn-primary btn-lg" target="_blank" rel="nofollow">Delegate Now</a>
         <staking-command/>
       </div>
     </section>
