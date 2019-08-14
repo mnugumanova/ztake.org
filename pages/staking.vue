@@ -53,7 +53,7 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="metric">
                             <div class="metric-content">
-                                <div>4<span class="percent">%</span></div>
+                                <div>7<span class="percent">%</span></div>
                                 <p>Validator Fee</p>
                             </div>
                         </div>
