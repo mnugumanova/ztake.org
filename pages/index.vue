@@ -114,6 +114,38 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
+            <a href="https://www.wanscan.org/vlds" target="_blank" rel="nofollow">
+              <div class="card">
+                <div class="card-logo wanchain">
+                  <img height="90" width="90" src="../assets/img/portfolio/wanchain.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Wanchain</h5>
+                  <div class="card-status">
+                    <div class="status-h">Status</div>
+                    <div class="status">Mainnet</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <a href="http://bigdipper.regen.network/validators" target="_blank" rel="nofollow">
+              <div class="card">
+                <div class="card-logo regen">
+                  <img height="80" width="66" src="../assets/img/portfolio/regen.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Regen</h5>
+                  <div class="card-status">
+                    <div class="status-h">Status</div>
+                    <div class="status">Testnet</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card">
               <div class="card-logo">
                 <img height="90" width="90" src="../assets/img/portfolio/ethereum2.png" alt="">

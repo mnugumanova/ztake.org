@@ -485,7 +485,7 @@ section#portfolio {
     background-color: #131837 !important;
   }
 
-  .polkadot {
+  .polkadot, .wanchain {
     background-color: #fff !important;
   }
 
@@ -493,6 +493,10 @@ section#portfolio {
     background-color: #1cbb9d !important;
     padding-top: 15px;
   }
+}
+
+.regen {
+  background-color: #000000 !important;
 }
 
 section#reasons {
