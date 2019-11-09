@@ -117,6 +117,22 @@
                             </div>
                         </div>
                     </div>
+                   <div class="col-md-9 col-lg-7 col-xl-6">
+                        <div class="guide">
+                            <div class="guide-logo">
+                                <img height="159" width="159" src="../assets/img/staking/trustwallet-logo.svg"
+                                     alt="">
+                            </div>
+                            <div class="guide-body">
+                                <h5 class="guide-title">Trust Wallet</h5>
+                                <p class="guide-text">
+                                    One of the best mobile wallet apps that supports $ATOM staking.
+                                </p>
+                                <a href="https://platform.trustwallet.com/"
+                                   target="_blank" class="btn btn-primary btn-lg" rel="noopener">Trust Wallet</a>
+                            </div>
+                        </div>
+                    </div>                    
                     <div class="col-md-7 col-lg-5 col-xl-6">
                         <div class="box d-flex flex-column justify-content-center align-items-center">
 

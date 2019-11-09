@@ -3,12 +3,12 @@
         <div class="delegate" @click="copyToClipboard">
             <p>
                 <i class="icon icon-shield"></i>
-                <span>Delegate your Cosmos ATOMS to us to keep network secure and decentralized!</span>
+                <span>Delegate your Cosmos ATOMs and Wanchain WANs to us to keep network secure and decentralized!</span>
             </p>
-            <div class="btn btn-copy" id="copy">
+<!--             <div class="btn btn-copy" id="copy">
                 <span>{{cosmosVal}}</span>
                 <i class="icon icon-copy"></i>
-            </div>
+            </div> -->
         </div>
         <b-tooltip :show.sync="showTooltip" triggers="" target="copy" placement="bottom">
             Copied

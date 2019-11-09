@@ -322,7 +322,7 @@
               Atoms Delegated: {{atoms}}
             </p>
             <p>
-              Commission rate: 4%
+              Commission rate: 7%
             </p>
           </div>
         </div>

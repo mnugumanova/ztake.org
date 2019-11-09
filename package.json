@@ -24,7 +24,7 @@
     "lodash": "^4.17.13",
     "lodash.template": "^4.5.0",
     "numeral": "^2.0.6",
-    "nuxt": "^2.4.0",
+    "nuxt": "^2.10.2",
     "vue-clipboard2": "^0.3.0",
     "vue-jsonp": "^0.1.8",
     "vue-scrollto": "^2.14.0"
