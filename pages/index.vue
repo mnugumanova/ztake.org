@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <a href="https://platform.trustwallet.com/" class="btn btn-primary btn-lg" target="_blank" rel="nofollow">Delegate Now</a>
+        <a href="https://platform.trustwallet.com/" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">Delegate Now</a>
         <staking-command/>
       </div>
     </section>
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://cosmos.bigdipper.live/validator/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" target="_blank" rel="nofollow">
+            <a href="https://cosmos.bigdipper.live/validator/42D6705E716616B4A5442BDAA050B7C6E9FDDE43" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo cosmos">
                   <img height="14" width="80" src="../assets/img/portfolio/cosmos.png" srcset="../assets/img/portfolio/cosmos@2x.png 2x, ../assets/img/portfolio/cosmos@3x.png 3x" alt="">
@@ -84,7 +84,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://forum.poa.network/t/who-are-validators-of-xdai-chain/1768" target="_blank" rel="nofollow">
+            <a href="https://forum.poa.network/t/who-are-validators-of-xdai-chain/1768" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo xdai">
                   <img height="105" width="105" src="../assets/img/portfolio/xDai.svg" alt="">
@@ -100,7 +100,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://validators.poa.network/poa-dapps-validators" target="_blank" rel="nofollow">
+            <a href="https://validators.poa.network/poa-dapps-validators" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo poa">
                   <img height="20" width="66" src="../assets/img/portfolio/poa.png" srcset="../assets/img/portfolio/poa@2x.png 2x, ../assets/img/portfolio/poa@3x.png 3x" alt="">
@@ -116,13 +116,45 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://www.wanscan.org/vlds" target="_blank" rel="nofollow">
+            <a href="https://www.wanscan.org/vlds" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo wanchain">
                   <img height="90" width="90" src="../assets/img/portfolio/wanchain.png" alt="">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Wanchain</h5>
+                  <div class="card-status">
+                    <div class="status-h">Status</div>
+                    <div class="status">Decommissioning</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <a href="http://bigdipper.regen.network/validators" target="_blank" rel="noreferrer">
+              <div class="card">
+                <div class="card-logo regen">
+                  <img height="80" width="77" src="../assets/img/portfolio/regen.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Regen</h5>
+                  <div class="card-status">
+                    <div class="status-h">Status</div>
+                    <div class="status">Testnet</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4">
+            <a href="https://staking.theoan.com/staking" target="_blank" rel="noreferrer">
+              <div class="card">
+                <div class="card-logo aion">
+                  <img height="80" width="90" src="../assets/img/portfolio/aion-logo.png" alt="">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Aion</h5>
                   <div class="card-status">
                     <div class="status-h">Status</div>
                     <div class="status">Mainnet</div>
@@ -132,16 +164,16 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="http://bigdipper.regen.network/validators" target="_blank" rel="nofollow">
+            <a href="https://eth-usd-aggregator.chain.link/" target="_blank" rel="noreferrer">
               <div class="card">
-                <div class="card-logo regen">
-                  <img height="80" width="66" src="../assets/img/portfolio/regen.png" alt="">
+                <div class="card-logo chainlink">
+                  <img height="90" width="80" src="../assets/img/portfolio/chainlink-logo.svg" alt="">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Regen</h5>
+                  <h5 class="card-title">Chainlink</h5>
                   <div class="card-status">
                     <div class="status-h">Status</div>
-                    <div class="status">Testnet</div>
+                    <div class="status">Mainnet</div>
                   </div>
                 </div>
               </div>
@@ -162,7 +194,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://t.me/staking_atoms" target="_blank" rel="nofollow">
+            <a href="https://t.me/staking_atoms" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo">
                   <img height="46" width="46" src="../assets/img/portfolio/plus.svg" alt="">
@@ -358,7 +390,7 @@
                         </div>
                         <input type="email" class="form-control" id="inputEmail" placeholder="Your email" required>
                     </label> -->
-                <a href="https://t.me/cosmos_ztake" target="_blank" rel="nofollow">
+                <a href="https://t.me/cosmos_ztake" target="_blank" rel="noreferrer">
                   <button type="button" class="btn btn-primary btn-lg"> Message us </button>
                 </a>
                 <!--</form>-->
