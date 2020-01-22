@@ -37,7 +37,7 @@ export default {
         if (response.error) {
           throw new Error(response.error.message)
         } else {
-          this.cGld = BN(response.result).div(1000000000000000000).toFormat(3)
+          this.cGld = BN(response.result).div(BN(10).pow(18)).toFormat(3)
         }
       } catch (e) {
         console.error(e)
