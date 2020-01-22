@@ -151,7 +151,7 @@
             <a href="https://staking.theoan.com/staking" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo aion">
-                  <img height="80" width="90" src="../assets/img/portfolio/aion-logo.png" alt="">
+                  <img height="38" width="90" src="../assets/img/portfolio/aion-logo.png" alt="">
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Aion</h5>
@@ -224,7 +224,7 @@
               High-security standards
             </h4>
             <p>
-              Our infrastructure consists of high-performance servers, 
+              Our infrastructure consists of high-performance servers,
               enhanced DDoS protection and would continue to evolve as the network matures.
             </p>
           </div>
@@ -426,7 +426,7 @@ export default {
           console.error(e)
         }
       }
-    },    
+    },
     mounted: async function () {
       await this.getDelegatedAtoms({ app: this })
     }

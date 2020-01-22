@@ -132,8 +132,8 @@
                                    target="_blank" class="btn btn-primary btn-lg" rel="noopener">Trust Wallet</a>
                             </div>
                         </div>
-                    </div>                    
-                    <div class="col-md-7 col-lg-5 col-xl-6">
+                    </div>
+                    <div class="col-md-7 col-lg-5 col-xl-6 d-flex flex-column justify-content-center align-items-center">
                         <div class="box d-flex flex-column justify-content-center align-items-center">
 
                             <h4>1:1 Delegation Help</h4>
@@ -143,7 +143,7 @@
                                 Email us at <a href="mailto:support@ztake.org" class="pt-4"><i class="icon icon-message"></i>
                                 support@ztake.org</a>
                             </p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -338,7 +338,7 @@ export default {
           console.error(e)
         }
       }
-    },    
+    },
     mounted: async function () {
       await this.getDelegatedAtoms({ app: this })
       await this.getSelfBondedAtoms({ app: this })
