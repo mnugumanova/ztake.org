@@ -12,7 +12,7 @@
 
 <script>
 /* eslint-disable no-console */
-const numeral = require('numeral')
+const BN = require('bignumber.js');
 const rpc = "http://5.189.224.132:8545/"
 
 export default {
@@ -37,7 +37,7 @@ export default {
         if (response.error) {
           throw new Error(response.error.message)
         } else {
-          this.cGld = numeral(response.result).divide(10000000000000000000).format('0.000')
+          this.cGld = BN(response.result).div(1000000000000000000).toFormat(3)
         }
       } catch (e) {
         console.error(e)
