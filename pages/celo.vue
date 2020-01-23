@@ -1,9 +1,10 @@
 <template>
   <section>
     <div class="container">
-      <h3 class="mb-4">Celo Rates</h3>
+      <h3 class="mb-4">Celo Exchange Rates</h3>
+      <h4 class="mb-4">Baklava Testnet</h4>
 
-      <h4 class="mb-4"><small>cGLD</small> = {{ cGld }} <small>cUSD</small></h4>
+      <h4 class="mb-4"><small>1 cGLD</small> = {{ cGld }} <small>cUSD</small></h4>
 
       <small class="muted mb-1">*cUSD - Celo USD, cGLD - Celo Gold</small>
     </div>
@@ -13,7 +14,7 @@
 <script>
 /* eslint-disable no-console */
 const BN = require('bignumber.js');
-const rpc = "http://5.189.224.132:8545/"
+const rpc = "http://167.172.247.209:8545/"
 
 export default {
   data() {
@@ -23,9 +24,9 @@ export default {
   },
   head() {
     return {
-      title: 'Celo Rates - ZTAKE',
+      title: 'Celo - ZTAKE',
       meta: [
-        {hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Celo Rates - ZTAKE'},
+        {hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Celo - ZTAKE'},
       ]
     }
   },
