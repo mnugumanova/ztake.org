@@ -13,7 +13,7 @@
 <script>
 /* eslint-disable no-console */
 const BN = require('bignumber.js');
-const rpc = "http://5.189.224.132:8545/"
+const rpc = "https://celo.ztake.org"
 
 export default {
   data() {
