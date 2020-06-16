@@ -3,16 +3,13 @@
         <div class="delegate" @click="copyToClipboard">
             <p>
                 <i class="icon icon-shield"></i>
-                <span>Delegate your Cosmos ATOMs and Wanchain WANs to us to keep network secure and decentralized!</span>
+                <span>Delegate your Cosmos ATOMs to us to keep Cosmos network secure and decentralized!</span>
             </p>
 <!--             <div class="btn btn-copy" id="copy">
                 <span>{{cosmosVal}}</span>
                 <i class="icon icon-copy"></i>
             </div> -->
         </div>
-        <b-tooltip :show.sync="showTooltip" triggers="" target="copy" placement="bottom">
-            Copied
-        </b-tooltip>
          <b-navbar toggleable="lg">
             <div class="container">
                 <b-navbar-brand to="/">
@@ -44,7 +41,6 @@ import BNavbarBrand from 'bootstrap-vue/es/components/navbar/navbar-brand'
 import BNavbarNav from 'bootstrap-vue/es/components/navbar/navbar-nav'
 import BNavItem from 'bootstrap-vue/es/components/nav/nav-item'
 import BNavbarToggle from 'bootstrap-vue/es/components/navbar/navbar-toggle'
-import BTooltip from 'bootstrap-vue/es/components/tooltip/tooltip'
 
 export default {
     name: "Header",
@@ -54,8 +50,7 @@ export default {
         'b-navbar-brand': BNavbarBrand,
         'b-navbar-nav': BNavbarNav,
         'b-nav-item': BNavItem,
-        'b-navbar-toggle': BNavbarToggle,
-        'b-tooltip': BTooltip
+        'b-navbar-toggle': BNavbarToggle
     },
     data() {
         return {

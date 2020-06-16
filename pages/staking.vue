@@ -81,7 +81,7 @@
             <div class="container">
                 <h3>How to stake</h3>
                 <p>
-                    There are currently two security-audited guide available: Official Delegators guide to use CLI or web-wallet.
+                    There are currently three great ways available: Official Delegators guide to use CLI, Lunie web-wallet or Trust Wallet.
                 </p>
                 <div class="row guides justify-content-md-center pt-5">
                     <div class="col-md-9 col-lg-7 col-xl-6">

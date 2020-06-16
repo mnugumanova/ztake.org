@@ -20,6 +20,7 @@ module.exports = {
       { name: 'twitter:description', content: 'Stake $ATOMs with Ztake.org'},
       { name: 'twitter:image', content: 'https://ztake.org/_nuxt/img/delegation.png'},
       { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'ZTAKE | US-based Cosmos Validator - Stake Atoms with us'},
+      { hid: 'og:image', name: 'og:image', content: '@/assets/img/delegation.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/apple-touch-icon-180x180.png' },

@@ -116,22 +116,6 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://staking.theoan.com/staking" target="_blank" rel="noreferrer">
-              <div class="card">
-                <div class="card-logo aion">
-                  <img height="38" width="90" src="../assets/img/portfolio/aion-logo.png" alt="">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Aion</h5>
-                  <div class="card-status">
-                    <div class="status-h">Status</div>
-                    <div class="status">Mainnet</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-4">
             <a href="https://eth-usd-aggregator.chain.link/" target="_blank" rel="noreferrer">
               <div class="card">
                 <div class="card-logo chainlink">
