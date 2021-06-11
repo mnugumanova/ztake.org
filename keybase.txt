@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/ztake
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ztake.org
+  * I am ztake (https://keybase.io/ztake) on keybase.
+  * I have a public key with fingerprint 182B 666C 1F73 EDA1 A016  2041 09A3 03A2 C724 C591
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101e5495fae496ed90a5155fe845c9992fac4a542b75ffd39dce0f4877590e98e650a",
+      "fingerprint": "182b666c1f73eda1a016204109a303a2c724c591",
+      "host": "keybase.io",
+      "key_id": "09a303a2c724c591",
+      "kid": "0101e5495fae496ed90a5155fe845c9992fac4a542b75ffd39dce0f4877590e98e650a",
+      "uid": "97cb0eff9861a7561a7b74a170799519",
+      "username": "ztake"
+    },
+    "service": {
+      "hostname": "ztake.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1562723355,
+  "expire_in": 157680000,
+  "prev": "61ce7f8385efc047a127da63426202421c367055f102e46410d38bbc4dbf12ec",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJ7bAxBHL6jlItKnSBxIiz+cqmZ3Z19XFIqiFfQKJqo5szuzt5tr3av
+d3vVRyRN9R9RQRBv1SLEoyXxLBL1fhWRIB5R8W5TaYlqVaRmPRKJf80fM5nffN83
+3++buZzS2+VxTy7ybk9vnZTpvtWwPuHKHTfVV8oollbMBEqZCPm5kHyNxO1gxNCY
+AAMggATxMtIx4WWBaDLACCKkE4lHqizLrI5VHiOeVUSk6xonayoBOi+JIpIBkSUi
+IIAZP6MbZojEojHDtKkslFhFEAQV6iJHNAwxgAILeAhkzAEOs6rI8iqSISWGrbjD
+oOYUHCdphkVrdBP8Ze9f/H/2nfgpJ4uqAoiuy5IAsYicSRF5DEUgyjKCsgOMk5iJ
+lxGKLrFxhDAr/AwtFRoqcVJ12vj7OM2KhSgrGrNsS7XyaTls29F4wKHZxVEHt5wo
+wd8KQcUwNZogZRSSWNywTCYAKVK1DUcSIoEVWY5DyM+QoqgRI0HDQSBRkAAdzj2k
+kEoKUCWiLnESIroKeBFDVtSwwPEsjZ/lWahygghoTBCwhBfog2icpCgqryk6ZInK
+OD0VmBYTYKlNHKKScSNkYjsRow1fvLAkyeX2uPr26eX8LJenf+qf/5ZtJPcs3XD3
+cfOpXQNTOgsHeJ9UThn1fki5x7tmwpVh/vS3V3fnHZ91a/3c1BEge0R7v6+vK3I/
+5dQ0XwwHW6qzTz4tb82oyipCQU9S0sTPWdO/v/jyrLQn/SOzoHuPNafqVaT7Zeam
+I3Wn12X0PrpF2pHzSHlYnLL6fkXTcNch35iqe2ztkG/SpWPTWhKDRh4oGV8OPpwI
+72jr8l8f7FnS4a58U3awfdHUtTPn1px9WP+k+vbChlmrGp+nb+v03jjnS9Pv3Gzb
+K1R/DIzNbCzISe55sPH2zdTIvM11lfNnVKxsSi7t1Se3O2+r71hdU/bOKYdd9Yv3
+m7UdZ57GJ/fvyj8/WtCulc0e+q5i3w+fYT2V
+=bSFe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ztake
+
+==================================================================

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="215" height="200">
+    <defs>
+        <filter id="a">
+            <feFlood flood-color="#706DF3" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="b">
+            <feFlood flood-color="#A2A1FF" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="c">
+            <feFlood flood-color="#706DF3" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="d">
+            <feFlood flood-color="#A2A1FF" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="e">
+            <feFlood flood-color="#A2A1FF" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="f">
+            <feFlood flood-color="#706DF3" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="g">
+            <feFlood flood-color="#3D3AD8" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+        <filter id="h">
+            <feFlood flood-color="#BBBCFF" flood-opacity="1" result="floodOut"/>
+            <feComposite in="floodOut" in2="SourceGraphic" operator="atop" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+    </defs>
+    <path fill="#0094FF" fill-rule="evenodd" d="M132.875 0c31.083 0 56.281 25.198 56.281 56.281s-25.198 56.281-56.281 56.281-56.281-25.198-56.281-56.281S101.792 0 132.875 0z" filter="url(#a)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M82.594 87.438h.031c31.083 0 56.281 25.198 56.281 56.281S113.708 200 82.625 200h-.031c-31.083 0-56.282-25.198-56.282-56.281s25.199-56.281 56.282-56.281z" filter="url(#b)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M132.781 87.438c31.083 0 56.282 25.198 56.282 56.281S163.864 200 132.781 200c-31.083 0-56.281-25.198-56.281-56.281s25.198-56.281 56.281-56.281z" filter="url(#c)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M82.594 0h.031c31.083 0 56.281 25.198 56.281 56.281s-25.198 56.281-56.281 56.281h-.031c-31.083 0-56.282-25.198-56.282-56.281S51.511 0 82.594 0z" filter="url(#d)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M158.031 43.719c31.084 0 56.281 25.198 56.281 56.281s-25.197 56.281-56.281 56.281c-31.083 0-56.281-25.198-56.281-56.281s25.198-56.281 56.281-56.281z" filter="url(#e)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M56.281 43.719c31.084 0 56.281 25.198 56.281 56.281s-25.197 56.281-56.281 56.281C25.198 156.281 0 131.083 0 100s25.198-56.281 56.281-56.281z" filter="url(#f)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M107.748 194.535l-81.416-47.27v-94.54l81.416-47.27 81.415 47.27v94.54l-81.415 47.27z" filter="url(#g)"/>
+    <path fill="#0094FF" fill-rule="evenodd" d="M65.668 75.41h81.97v33.88s.349 6.091-3.279 10.929c-3.627 4.838-37.159 25.136-37.159 25.136l-32.788-18.579s-6.122-4.521-7.651-10.929c-1.528-6.408-1.093-12.022-1.093-12.022V75.41z" filter="url(#h)"/>
+    <path fill="#FFF" fill-rule="evenodd" d="M106.643 51.365l40.988 24.591-40.988 24.592-40.987-24.592 40.987-24.591z"/>
+</svg>
