@@ -26,7 +26,6 @@
                         <b-nav-item to="/cosmos_glossary">Cosmos Glossary</b-nav-item>
                         <b-nav-item to="/partnership">Partnership</b-nav-item>
                         <b-nav-item to="/about">About</b-nav-item>
-                        <!--<b-nav-item to="/celo_rates">Celo Rates</b-nav-item> -->
                     </b-navbar-nav>
                 </b-collapse>
             </div>
