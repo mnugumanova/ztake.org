@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <a href="https://platform.trustwallet.com/" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">Delegate Now</a>
+        <a href="https://wallet.keplr.app/#/cosmoshub/stake?modal=detail&validator=cosmosvaloper102ruvpv2srmunfffxavttxnhezln6fnc54at8c" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">Delegate Now</a>
         <staking-command/>
       </div>
     </section>
