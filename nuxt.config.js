@@ -38,7 +38,6 @@ module.exports = {
   */
   css: [
     'bootstrap/scss/bootstrap.scss',
-    //'~bootstrap-vue/src/index.scss',
     '@/assets/scss/ztake.scss'
   ],
 
@@ -61,7 +60,7 @@ module.exports = {
     }],
     '@nuxtjs/dotenv',
     ['@nuxtjs/google-analytics', {
-      id: 'UA-136477349-1',
+      id: 'G-ZGL9ML1H37',
       dev: false
     }]
   ],
