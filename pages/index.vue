@@ -116,22 +116,6 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-4">
-            <a href="https://eth-usd-aggregator.chain.link/" target="_blank" rel="noreferrer">
-              <div class="card">
-                <div class="card-logo chainlink">
-                  <img height="90" width="80" src="../assets/img/portfolio/chainlink-logo.svg" alt="">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Chainlink</h5>
-                  <div class="card-status">
-                    <div class="status-h">Status</div>
-                    <div class="status">Mainnet</div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="card">
               <div class="card-logo">
                 <img height="90" width="90" src="../assets/img/portfolio/ethereum2.png" alt="">
